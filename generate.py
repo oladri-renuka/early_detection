@@ -76,7 +76,10 @@ class GenerationInstrumenter:
         if not self._active or not self.prefill_done:
             return
         if self.gen_step in self.checkpoint_positions:
-            self.hidden_states[self.gen_step] = output[0][:, -1, :].detach().cpu().float()
+            h = output[0].detach().cpu().float()
+            if h.dim() == 3:
+                h = h[:, -1, :]
+            self.hidden_states[self.gen_step] = h
 
     def _logit_hook(self, module, input, output):
         if not self._active:

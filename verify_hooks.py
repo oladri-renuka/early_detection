@@ -89,12 +89,18 @@ def main():
     else:
         shape = captured["hidden_state"].shape
         print(f"  Hook fired. Hidden state shape: {shape}")
-        if len(shape) != 3:
-            errors.append(f"Expected 3D tensor [batch, seq, hidden], got shape {shape}")
-        elif shape[2] != hidden_dim:
-            errors.append(f"Hidden dim mismatch: config says {hidden_dim}, hook captured {shape[2]}")
+        if len(shape) == 3:
+            if shape[2] != hidden_dim:
+                errors.append(f"Hidden dim mismatch: config says {hidden_dim}, hook captured {shape[2]}")
+            else:
+                print(f"  Shape is correct: [batch={shape[0]}, seq={shape[1]}, hidden={shape[2]}]")
+        elif len(shape) == 2:
+            if shape[1] != hidden_dim:
+                errors.append(f"Hidden dim mismatch: config says {hidden_dim}, hook captured {shape[1]}")
+            else:
+                print(f"  Shape is 2D: [batch={shape[0]}, hidden={shape[1]}] (layer returns 2D during generate)")
         else:
-            print(f"  Shape is correct: [batch={shape[0]}, seq={shape[1]}, hidden={shape[2]}]")
+            errors.append(f"Unexpected tensor shape: {shape}")
 
     handle.remove()
 
