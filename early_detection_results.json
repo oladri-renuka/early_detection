@@ -1,0 +1,38 @@
+[
+  {
+    "checkpoint_pos": 150,
+    "n_samples": 200,
+    "n_with_activations": 200,
+    "convergence_rate": 0.62,
+    "behavioral_auc_mean": 0.44494583333333343,
+    "behavioral_auc_std": 0.05174167203521742,
+    "behavioral_auc_folds": [
+      0.4140625,
+      0.36800000000000005,
+      0.5093333333333334,
+      0.49333333333333335,
+      0.43999999999999995
+    ],
+    "activation_auc_mean": 0.6118208333333334,
+    "activation_auc_std": 0.03922237970144648,
+    "activation_auc_folds": [
+      0.6484375,
+      0.5493333333333335,
+      0.6533333333333333,
+      0.6213333333333333,
+      0.5866666666666667
+    ],
+    "combined_auc_mean": 0.6107166666666666,
+    "combined_auc_std": 0.04091738288578853,
+    "combined_auc_folds": [
+      0.65625,
+      0.5493333333333335,
+      0.648,
+      0.6213333333333333,
+      0.5786666666666667
+    ],
+    "delta_auc": 0.16687499999999994,
+    "p_value": 0.0009238620903965574,
+    "verdict": "ACTIVATION PROBE BEATS BASELINE"
+  }
+]
