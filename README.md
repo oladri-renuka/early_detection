@@ -198,8 +198,3 @@ This project builds directly on [token-efficiency-math-reasoning](https://github
 - That problem difficulty explains only ~18.6% of the convergence variance
 - The budget-forcing methodology and critical implementation details reused here
 
----
-
-## Interview Talking Points
-
-> "My token efficiency project found that a reasoning model's AIME performance is bimodal — it either converges and is usually right, or gets stuck and is usually wrong, and this isn't fully explained by problem difficulty. I followed up by testing whether that outcome is predictable from internal activations early in the thinking chain, before the behavioral signal of non-convergence is observable. I built a probe comparing internal activations against a behavioral-only baseline at the same checkpoint, with proper cross-validation given the modest sample size, and found that internal activations carry significant predictive signal (AUC 0.612 vs 0.445, p=0.001) precisely in the window where surface features are pure noise. This is directly relevant to inference-cost reduction: an early, mechanistically-grounded signal for when to abandon a doomed generation is cheaper than waiting for it to time out."
