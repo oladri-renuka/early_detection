@@ -1,0 +1,25 @@
+{
+  "model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+  "dataset": "gneubig/aime-1983-2024",
+  "n_samples": 200,
+  "seed": 42,
+  "max_new_tokens": 10000,
+  "hook_layer": 16,
+  "num_hidden_layers": 28,
+  "hidden_size": 3584,
+  "convergence_rate": 0.62,
+  "overall_accuracy": 0.585,
+  "converged_accuracy": 0.903,
+  "non_converged_accuracy": 0.066,
+  "n_converged": 124,
+  "n_non_converged": 76,
+  "avg_tokens_converged": 4889,
+  "avg_tokens_non_converged": 10000,
+  "gpu": "RTX PRO 4000 (24GB VRAM)",
+  "sanity_check": {
+    "original_convergence_rate": 0.565,
+    "original_converged_accuracy": 0.965,
+    "original_non_converged_accuracy": 0.115,
+    "status": "PASSED — convergence rate within expected range"
+  }
+}
