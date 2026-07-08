@@ -50,15 +50,18 @@ def main():
     hidden_dim = model.config.hidden_size
     print(f"  num_hidden_layers = {n_layers}")
     print(f"  hidden_size = {hidden_dim}")
-
-    layer_idx = int(n_layers * 0.6)
-    print(f"  Hook target layer index = {layer_idx} (60% depth)")
+    print(f"  Will hook all {n_layers} layers for layer sweep")
+    print(f"  Sweep layer (60% depth) = {int(n_layers * 0.6)}")
 
     captured = {}
-    def hook_fn(module, input, output):
-        captured["hidden_state"] = output[0].detach()
+    handles = []
+    def make_hook(idx):
+        def hook_fn(module, input, output):
+            captured[idx] = output[0].detach()
+        return hook_fn
 
-    handle = model.model.layers[layer_idx].register_forward_hook(hook_fn)
+    for i in range(n_layers):
+        handles.append(model.model.layers[i].register_forward_hook(make_hook(i)))
 
     # 4. Verify chat template includes <think>
     print("\n[4/7] Verifying chat template...")
@@ -84,25 +87,22 @@ def main():
             temperature=None,
             top_p=None,
         )
-    if "hidden_state" not in captured:
-        errors.append("Hook did NOT fire during generation")
+    if not captured:
+        errors.append("No layer hooks fired during generation")
     else:
-        shape = captured["hidden_state"].shape
-        print(f"  Hook fired. Hidden state shape: {shape}")
-        if len(shape) == 3:
-            if shape[2] != hidden_dim:
-                errors.append(f"Hidden dim mismatch: config says {hidden_dim}, hook captured {shape[2]}")
-            else:
-                print(f"  Shape is correct: [batch={shape[0]}, seq={shape[1]}, hidden={shape[2]}]")
-        elif len(shape) == 2:
-            if shape[1] != hidden_dim:
-                errors.append(f"Hidden dim mismatch: config says {hidden_dim}, hook captured {shape[1]}")
-            else:
-                print(f"  Shape is 2D: [batch={shape[0]}, hidden={shape[1]}] (layer returns 2D during generate)")
+        print(f"  {len(captured)}/{n_layers} layer hooks fired")
+        sample_shape = next(iter(captured.values())).shape
+        last_dim = sample_shape[-1]
+        print(f"  Sample hidden state shape: {sample_shape}")
+        if last_dim != hidden_dim:
+            errors.append(f"Hidden dim mismatch: config says {hidden_dim}, hook captured {last_dim}")
         else:
-            errors.append(f"Unexpected tensor shape: {shape}")
+            print(f"  Hidden dim correct: {hidden_dim}")
+        if len(captured) < n_layers:
+            errors.append(f"Only {len(captured)}/{n_layers} hooks fired")
 
-    handle.remove()
+    for h in handles:
+        h.remove()
 
     # 6. Verify logit access during generation
     print("\n[6/7] Verifying logit capture via hook on lm_head...")
@@ -111,8 +111,6 @@ def main():
         logit_captured["logits"] = output.detach()
 
     lm_handle = model.lm_head.register_forward_hook(logit_hook_fn)
-    captured.clear()
-    handle2 = model.model.layers[layer_idx].register_forward_hook(hook_fn)
 
     with torch.no_grad():
         output = model.generate(
@@ -124,7 +122,6 @@ def main():
         )
 
     lm_handle.remove()
-    handle2.remove()
 
     if "logits" not in logit_captured:
         errors.append("Logit hook on lm_head did NOT fire")
