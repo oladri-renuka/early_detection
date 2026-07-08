@@ -157,7 +157,7 @@ def main():
         print("ALL CHECKS PASSED")
         print(f"  Model: {MODEL_NAME}")
         print(f"  Layers: {n_layers}, Hidden: {hidden_dim}")
-        print(f"  Hook layer: {layer_idx}")
+        print(f"  Hook layer: {int(n_layers * 0.6)} (60% depth, all {n_layers} layers hooked)")
         print(f"  VRAM: {vram:.2f} GB")
         print(f"  Chat template includes <think>: YES")
         print(f"  Hook fires during generate: YES")
