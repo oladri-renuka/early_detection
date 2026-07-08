@@ -31,8 +31,14 @@ from sklearn.preprocessing import StandardScaler
 
 warnings.filterwarnings("ignore", category=UserWarning)
 
-CHECKPOINT_DIR = Path("checkpoints")
-RESULTS_DIR    = Path("results")
+_NETWORK_VOLUME = Path("/runpod-volume")
+if _NETWORK_VOLUME.exists():
+    CHECKPOINT_DIR = _NETWORK_VOLUME / "early_detection" / "checkpoints"
+    RESULTS_DIR    = _NETWORK_VOLUME / "early_detection" / "results"
+    print(f"[INFO] Using network volume: {_NETWORK_VOLUME}")
+else:
+    CHECKPOINT_DIR = Path("checkpoints")
+    RESULTS_DIR    = Path("results")
 
 RECORDS_FILE        = CHECKPOINT_DIR / "records.json"
 LAYER_SWEEP_FILE    = CHECKPOINT_DIR / "layer_sweep.pt"

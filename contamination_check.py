@@ -23,8 +23,14 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 MODEL_NAME = "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B"
 MAX_NEW_TOKENS = 10000
 THINK_END_ID = 151649
-RESULTS_DIR = Path("results")
-CHECKPOINT_FILE = Path("checkpoints/contamination_check.json")
+_NETWORK_VOLUME = Path("/runpod-volume")
+if _NETWORK_VOLUME.exists():
+    RESULTS_DIR     = _NETWORK_VOLUME / "early_detection" / "results"
+    CHECKPOINT_FILE = _NETWORK_VOLUME / "early_detection" / "checkpoints" / "contamination_check.json"
+    print(f"[INFO] Using network volume: {_NETWORK_VOLUME}")
+else:
+    RESULTS_DIR     = Path("results")
+    CHECKPOINT_FILE = Path("checkpoints/contamination_check.json")
 
 
 def extract_answer(response):

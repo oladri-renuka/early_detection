@@ -36,8 +36,16 @@ LAYER_SWEEP_CHECKPOINT = 150
 # Checkpoint sweep: capture layer 16 at all these positions
 CHECKPOINT_POSITIONS = [50, 75, 100, 125, 150, 175, 200, 250, 300]
 
-RESULTS_DIR    = Path("results")
-CHECKPOINT_DIR = Path("checkpoints")
+# Use RunPod network volume if available, otherwise fall back to local
+_NETWORK_VOLUME = Path("/runpod-volume")
+if _NETWORK_VOLUME.exists():
+    RESULTS_DIR    = _NETWORK_VOLUME / "early_detection" / "results"
+    CHECKPOINT_DIR = _NETWORK_VOLUME / "early_detection" / "checkpoints"
+    print(f"[INFO] Using network volume: {_NETWORK_VOLUME}")
+else:
+    RESULTS_DIR    = Path("results")
+    CHECKPOINT_DIR = Path("checkpoints")
+    print(f"[INFO] Network volume not found, saving locally")
 
 
 # ── Instrumenter ──────────────────────────────────────────────────────────────

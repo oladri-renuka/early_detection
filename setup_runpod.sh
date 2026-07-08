@@ -11,6 +11,23 @@ source venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 
+# Create persistent directories on network volume if available
+if [ -d "/runpod-volume" ]; then
+    mkdir -p /runpod-volume/early_detection/checkpoints
+    mkdir -p /runpod-volume/early_detection/results
+    echo ""
+    echo ">>> Network volume detected at /runpod-volume"
+    echo ">>> Checkpoints will be saved to /runpod-volume/early_detection/checkpoints/"
+    echo ">>> These PERSIST even if the pod is terminated."
+    echo ">>> To resume: spin up a new pod with the SAME network volume attached,"
+    echo ">>> clone the repo, and re-run generate.py — it will resume automatically."
+else
+    echo ""
+    echo ">>> WARNING: No network volume found at /runpod-volume"
+    echo ">>> Checkpoints will be saved locally and LOST if the pod is terminated."
+    echo ">>> Attach a network volume before running generate.py."
+fi
+
 echo ""
 echo "=== Setup complete ==="
 echo ""
