@@ -72,7 +72,6 @@ def run_cv_probe(X, y, n_splits=5):
 
         y_prob = clf.predict_proba(X_test_s)[:, 1]
         auc = roc_auc_score(y_test, y_prob)
-        auc = max(auc, 1 - auc)   # correct for label-flip
         aucs.append(auc)
 
     return np.array(aucs)
@@ -187,8 +186,8 @@ def run_layer_sweep(records, layer_sweep, y):
     ax.legend()
     ax.grid(True, alpha=0.3)
     plt.tight_layout()
-    out = RESULTS_DIR / "layer_sweep.png"
-    plt.savefig(out, dpi=150, bbox_inches="tight")
+    out = RESULTS_DIR / "layer_sweep.pdf"
+    plt.savefig(out, bbox_inches="tight")
     plt.close()
     print(f"  Plot saved to {out}")
 
@@ -303,8 +302,8 @@ def run_checkpoint_sweep(records, checkpoint_acts, y):
     ax.set_ylim(0.4, 0.95)
     ax.grid(True, alpha=0.3)
     plt.tight_layout()
-    out = RESULTS_DIR / "checkpoint_sweep.png"
-    plt.savefig(out, dpi=150, bbox_inches="tight")
+    out = RESULTS_DIR / "checkpoint_sweep.pdf"
+    plt.savefig(out, bbox_inches="tight")
     plt.close()
     print(f"\n  Plot saved to {out}")
 
