@@ -257,7 +257,7 @@ def run_checkpoint_sweep(records, checkpoint_acts, y):
         print(
             f"  cp={cp:3d}: act={act_aucs.mean():.3f}±{act_aucs.std():.3f} | "
             f"behav={behav_aucs.mean():.3f}±{behav_aucs.std():.3f} | "
-            f"Δ={delta:+.3f} | p={p_val:.3f if p_val else 'N/A'} | {verdict}"
+            f"Δ={delta:+.3f} | p={f'{p_val:.3f}' if p_val is not None else 'N/A'} | {verdict}"
         )
 
         all_results.append({
