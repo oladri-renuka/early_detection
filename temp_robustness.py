@@ -90,7 +90,10 @@ def main():
     if OUT_FILE.exists():
         with open(OUT_FILE) as f:
             existing = json.load(f)
+        # Handle both {per_seed: {...}} and flat {seed_0: {...}} structures
         per_seed = existing.get("per_seed", {})
+        if not per_seed:
+            per_seed = {k: v for k, v in existing.items() if k.startswith("seed_")}
         print(f"Loaded existing results for seeds: {list(per_seed.keys())}")
 
     for seed in SEEDS:
