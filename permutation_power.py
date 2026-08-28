@@ -156,14 +156,25 @@ def run_permutation_test(X, y, n_perms=N_PERMUTATIONS, rng_seed=0):
 
 
 # ── Power analysis ─────────────────────────────────────────────────────────────
-def run_power_analysis(y, alpha=ALPHA, power=POWER_TARGET, n_sim=2000, rng_seed=1):
+def hanley_mcneil_var(auc, n_pos, n_neg):
     """
-    Simulate: for a range of true AUC effect sizes, how often does the
-    5-fold CV probe reject the null at level alpha?
-    Reports the minimum detectable AUC at the target power.
+    Hanley & McNeil (1982) variance of the AUC estimator.
+    V(AUC) = (auc*(1-auc) + (n_pos-1)*Q1 + (n_neg-1)*Q2) / (n_pos*n_neg)
+    where Q1 = auc/(2-auc), Q2 = 2*auc^2/(1+auc).
+    """
+    Q1 = auc / (2 - auc)
+    Q2 = 2 * auc ** 2 / (1 + auc)
+    var = (auc * (1 - auc) + (n_pos - 1) * Q1 + (n_neg - 1) * Q2) / (n_pos * n_neg)
+    return var
+
+
+def run_power_analysis(y, alpha=ALPHA, power=POWER_TARGET):
+    """
+    Closed-form power analysis using the Hanley-McNeil (1982) variance formula.
+    For a one-sided z-test of H0: AUC = 0.5 vs H1: AUC > 0.5.
     """
     print(f"\n{'='*60}")
-    print(f"POWER ANALYSIS  (α={alpha}, target_power={power}, n_sim={n_sim})")
+    print(f"POWER ANALYSIS  (α={alpha}, target_power={power}, Hanley-McNeil)")
     print(f"{'='*60}")
 
     n = len(y)
@@ -171,69 +182,54 @@ def run_power_analysis(y, alpha=ALPHA, power=POWER_TARGET, n_sim=2000, rng_seed=
     n_neg = n - n_pos
     print(f"  n={n}, n_converged={n_pos}, n_non_converged={n_neg}, balance={n_pos/n:.3f}")
 
-    rng = np.random.default_rng(rng_seed)
+    z_alpha = stats.norm.ppf(1 - alpha)       # one-sided critical value
+    z_power = stats.norm.ppf(power)
 
-    # Candidate effect sizes (true AUC)
-    candidate_aucs = np.arange(0.50, 0.85, 0.02)
-    empirical_powers = []
-
-    # Critical value: AUC that beats chance at level alpha under the null.
-    # We approximate this via a normal approximation on the fold-level AUCs.
-    # Simpler: for each true AUC, simulate n_sim datasets and check rejection rate.
+    candidate_aucs = np.arange(0.51, 0.85, 0.01)
+    achieved_powers = []
 
     for true_auc in candidate_aucs:
-        rejections = 0
-        for _ in range(n_sim):
-            # Simulate scores that yield approximately true_auc:
-            # positives drawn from N(true_auc, 0.15), negatives from N(0, 0.15)
-            scores_pos = rng.normal(loc=true_auc, scale=0.15, size=n_pos)
-            scores_neg = rng.normal(loc=0.0,      scale=0.15, size=n_neg)
-            scores = np.concatenate([scores_pos, scores_neg])
-            labels = np.concatenate([np.ones(n_pos), np.zeros(n_neg)])
+        # Variance under H1 (true AUC)
+        var_h1  = hanley_mcneil_var(true_auc, n_pos, n_neg)
+        se_h1   = np.sqrt(var_h1)
+        # Variance under H0 (AUC = 0.5)
+        var_h0  = hanley_mcneil_var(0.5, n_pos, n_neg)
+        se_h0   = np.sqrt(var_h0)
+        # Power: P(Z > z_alpha | true AUC)
+        z = (true_auc - 0.5 - z_alpha * se_h0) / se_h1
+        pwr = float(stats.norm.cdf(z))
+        achieved_powers.append(pwr)
 
-            # Shuffle together
-            idx = rng.permutation(n)
-            scores, labels = scores[idx], labels[idx]
+    achieved_powers = np.array(achieved_powers)
 
-            # 5-fold CV AUC
-            skf = StratifiedKFold(n_splits=N_CV_SPLITS, shuffle=True,
-                                  random_state=int(rng.integers(1e6)))
-            fold_aucs = []
-            for tr, te in skf.split(scores.reshape(-1, 1), labels):
-                if len(np.unique(labels[te])) < 2:
-                    continue
-                fold_aucs.append(roc_auc_score(labels[te], scores[tr].mean() + scores[te]))
-
-            if not fold_aucs:
-                continue
-
-            # One-sided t-test: H0: mean AUC = 0.5
-            fold_aucs = np.array(fold_aucs)
-            t, p = stats.ttest_1samp(fold_aucs, 0.5)
-            if t > 0 and p / 2 < alpha:
-                rejections += 1
-
-        emp_power = rejections / n_sim
-        empirical_powers.append(emp_power)
-        print(f"  True AUC={true_auc:.2f}  empirical power={emp_power:.3f}")
-
-    empirical_powers = np.array(empirical_powers)
-
-    # Find minimum detectable AUC
-    detectable = candidate_aucs[empirical_powers >= power]
+    # Minimum detectable AUC at target power
+    detectable = candidate_aucs[achieved_powers >= power]
     mda = float(detectable[0]) if len(detectable) > 0 else float("nan")
-    print(f"\n  Minimum detectable AUC at {power:.0%} power: {mda:.3f}")
+
+    # Also compute analytically
+    var_h0 = hanley_mcneil_var(0.5, n_pos, n_neg)
+    se_h0  = np.sqrt(var_h0)
+    # Solve: (mda - 0.5) / se_h1 = z_alpha + z_power  (approx with se_h1 ≈ se_h0)
+    mda_approx = 0.5 + (z_alpha + z_power) * se_h0
+
+    print(f"  Minimum detectable AUC at {power:.0%} power: {mda:.3f}")
+    print(f"  (analytic approximation: {mda_approx:.3f})")
+
+    # Table of key AUC thresholds
+    for auc_check in [0.55, 0.60, 0.62, 0.65, 0.70, 0.75]:
+        idx = np.argmin(np.abs(candidate_aucs - auc_check))
+        print(f"  AUC={auc_check:.2f}  power={achieved_powers[idx]:.3f}")
 
     # Plot
     fig, ax = plt.subplots(figsize=(8, 4))
-    ax.plot(candidate_aucs, empirical_powers, marker="o", linewidth=2)
+    ax.plot(candidate_aucs, achieved_powers, linewidth=2, label="Power curve")
     ax.axhline(power, color="orange", linestyle="--", label=f"Target power={power:.0%}")
     ax.axhline(alpha, color="gray",   linestyle=":",  label=f"α={alpha}")
     if not np.isnan(mda):
         ax.axvline(mda, color="red", linestyle="--", label=f"MDA={mda:.2f}")
     ax.set_xlabel("True AUC")
-    ax.set_ylabel("Empirical Power")
-    ax.set_title(f"Power Analysis — n={n}, balance={n_pos/n:.2f}, α={alpha}")
+    ax.set_ylabel("Power")
+    ax.set_title(f"Power Analysis (Hanley-McNeil) — n={n}, balance={n_pos/n:.2f}, α={alpha}")
     ax.legend()
     ax.set_ylim(0, 1.05)
     ax.grid(True, alpha=0.3)
@@ -250,8 +246,9 @@ def run_power_analysis(y, alpha=ALPHA, power=POWER_TARGET, n_sim=2000, rng_seed=
         "alpha": alpha,
         "target_power": power,
         "minimum_detectable_auc": mda,
+        "mda_analytic_approx": float(mda_approx),
         "candidate_aucs": candidate_aucs.tolist(),
-        "empirical_powers": empirical_powers.tolist(),
+        "achieved_powers": achieved_powers.tolist(),
     }
 
 
@@ -275,7 +272,7 @@ def main():
         output["permutation_test"] = run_permutation_test(X, y_sub, n_perms=args.n_perms)
 
     if args.mode in ("power", "all"):
-        output["power_analysis"] = run_power_analysis(y)
+        output["power_analysis"] = run_power_analysis(y, alpha=ALPHA, power=POWER_TARGET)
 
     out_path = RESULTS_DIR / "permutation_power_results.json"
     with open(out_path, "w") as f:
