@@ -31,7 +31,7 @@ def run_seed(seed, problems, tokenizer, model, device):
     results = []
 
     for i, item in enumerate(problems):
-        problem = item["problem"]
+        problem = item["Question"]
         messages = [{"role": "user", "content": problem}]
         prompt = tokenizer.apply_chat_template(
             messages, tokenize=False, add_generation_prompt=True
@@ -53,7 +53,7 @@ def run_seed(seed, problems, tokenizer, model, device):
         n_tokens = len(generated)
 
         results.append({
-            "problem_idx": item.get("id", i),
+            "problem_idx": item.get("ID", i),
             "converged": converged,
             "n_tokens": n_tokens,
         })
