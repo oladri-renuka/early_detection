@@ -5,6 +5,7 @@ Each seed sees the same 200 problems (fixed sample, seed-0 draw).
 Takes ~8-12h on a single A100.
 """
 
+import argparse
 import json, random
 from pathlib import Path
 from datasets import load_dataset
@@ -65,6 +66,11 @@ def run_seed(seed, problems, tokenizer, model, device):
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--start_seed", type=int, default=0,
+                        help="Resume from this seed index (skips earlier seeds)")
+    args = parser.parse_args()
+
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"Loading model on {device}...")
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
@@ -79,8 +85,21 @@ def main():
     problems = sample_problems(all_problems)
     print(f"Fixed problem set: {len(problems)} problems")
 
+    # Load any existing results so we can append
     per_seed = {}
+    if OUT_FILE.exists():
+        with open(OUT_FILE) as f:
+            existing = json.load(f)
+        per_seed = existing.get("per_seed", {})
+        print(f"Loaded existing results for seeds: {list(per_seed.keys())}")
+
     for seed in SEEDS:
+        if seed < args.start_seed:
+            print(f"Skipping seed {seed} (--start_seed={args.start_seed})")
+            continue
+        if f"seed_{seed}" in per_seed:
+            print(f"Skipping seed {seed} (already in results file)")
+            continue
         print(f"\n{'='*60}\nRunning seed {seed}\n{'='*60}")
         results, conv_rate = run_seed(seed, problems, tokenizer, model, device)
         per_seed[f"seed_{seed}"] = {
