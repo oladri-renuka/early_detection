@@ -1,0 +1,5442 @@
+{
+  "model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+  "budgets": [
+    32,
+    64,
+    128
+  ],
+  "by_budget": [
+    {
+      "budget": 32,
+      "n_problems": 200,
+      "convergence_rate": 1.0,
+      "n_converged": 200,
+      "accuracy": 0.04,
+      "n_correct": 8,
+      "converged_accuracy": 0.04,
+      "mean_tokens_generated": 232.0
+    },
+    {
+      "budget": 64,
+      "n_problems": 200,
+      "convergence_rate": 1.0,
+      "n_converged": 200,
+      "accuracy": 0.055,
+      "n_correct": 11,
+      "converged_accuracy": 0.055,
+      "mean_tokens_generated": 264.0
+    },
+    {
+      "budget": 128,
+      "n_problems": 200,
+      "convergence_rate": 1.0,
+      "n_converged": 200,
+      "accuracy": 0.065,
+      "n_correct": 13,
+      "converged_accuracy": 0.065,
+      "mean_tokens_generated": 328.0
+    }
+  ],
+  "results": [
+    {
+      "problem_id": "2022-I-5",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "176",
+      "gold": "550"
+    },
+    {
+      "problem_id": "2005-II-15",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "409",
+      "gold": "169"
+    },
+    {
+      "problem_id": "2019-I-7",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "1014",
+      "gold": "880"
+    },
+    {
+      "problem_id": "2023-II-8",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "49",
+      "gold": "24"
+    },
+    {
+      "problem_id": "2007-I-8",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "43",
+      "gold": "30"
+    },
+    {
+      "problem_id": "1985-13",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "101",
+      "gold": "401"
+    },
+    {
+      "problem_id": "2001-I-15",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "103",
+      "gold": "85"
+    },
+    {
+      "problem_id": "2010-II-1",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "192",
+      "gold": "640"
+    },
+    {
+      "problem_id": "2009-II-5",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": true,
+      "pred": "32",
+      "gold": "32"
+    },
+    {
+      "problem_id": "2006-II-7",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "7381",
+      "gold": "738"
+    },
+    {
+      "problem_id": "2020-I-3",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": true,
+      "pred": "621",
+      "gold": "621"
+    },
+    {
+      "problem_id": "2021-II-5",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "200",
+      "gold": "736"
+    },
+    {
+      "problem_id": "2003-I-3",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "220",
+      "gold": "484"
+    },
+    {
+      "problem_id": "2009-I-11",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "2008",
+      "gold": "600"
+    },
+    {
+      "problem_id": "2005-I-1",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "111",
+      "gold": "942"
+    },
+    {
+      "problem_id": "2013-I-8",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "12",
+      "gold": "371"
+    },
+    {
+      "problem_id": "2023-II-10",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "128",
+      "gold": "144"
+    },
+    {
+      "problem_id": "1999-15",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "128",
+      "gold": "408"
+    },
+    {
+      "problem_id": "2010-I-9",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "103",
+      "gold": "158"
+    },
+    {
+      "problem_id": "1993-15",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "1",
+      "gold": "997"
+    },
+    {
+      "problem_id": "2002-I-9",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "131",
+      "gold": "757"
+    },
+    {
+      "problem_id": "1994-1",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "124",
+      "gold": "63"
+    },
+    {
+      "problem_id": "2019-I-4",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "1000",
+      "gold": "122"
+    },
+    {
+      "problem_id": "1990-9",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "123",
+      "gold": "73"
+    },
+    {
+      "problem_id": "2014-I-14",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "103",
+      "gold": "263"
+    },
+    {
+      "problem_id": "2020-II-4",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "153",
+      "gold": "108"
+    },
+    {
+      "problem_id": "2001-I-6",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "126",
+      "gold": "79"
+    },
+    {
+      "problem_id": "2011-I-11",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "376",
+      "gold": "7"
+    },
+    {
+      "problem_id": "2017-I-13",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "199",
+      "gold": "59"
+    },
+    {
+      "problem_id": "2020-II-15",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "1143",
+      "gold": "717"
+    },
+    {
+      "problem_id": "2013-II-12",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "120",
+      "gold": "540"
+    },
+    {
+      "problem_id": "1994-14",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "111",
+      "gold": "71"
+    },
+    {
+      "problem_id": "2003-I-10",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "68",
+      "gold": "83"
+    },
+    {
+      "problem_id": "1990-14",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "468",
+      "gold": "594"
+    },
+    {
+      "problem_id": "2018-I-8",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "100",
+      "gold": "147"
+    },
+    {
+      "problem_id": "1988-7",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": true,
+      "pred": "110",
+      "gold": "110"
+    },
+    {
+      "problem_id": "2022-I-11",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "240",
+      "gold": "150"
+    },
+    {
+      "problem_id": "2016-II-6",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "123",
+      "gold": "275"
+    },
+    {
+      "problem_id": "2004-I-2",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "100",
+      "gold": "201"
+    },
+    {
+      "problem_id": "2009-I-6",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "729",
+      "gold": "412"
+    },
+    {
+      "problem_id": "2012-I-11",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "342",
+      "gold": "373"
+    },
+    {
+      "problem_id": "1991-1",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "101",
+      "gold": "146"
+    },
+    {
+      "problem_id": "2004-II-12",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "13",
+      "gold": "134"
+    },
+    {
+      "problem_id": "2007-II-9",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "14",
+      "gold": "259"
+    },
+    {
+      "problem_id": "2003-II-1",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "105",
+      "gold": "336"
+    },
+    {
+      "problem_id": "2014-I-6",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "1007",
+      "gold": "36"
+    },
+    {
+      "problem_id": "2015-I-6",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "120",
+      "gold": "58"
+    },
+    {
+      "problem_id": "1999-1",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "7",
+      "gold": "29"
+    },
+    {
+      "problem_id": "2012-I-1",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "125",
+      "gold": "40"
+    },
+    {
+      "problem_id": "2024-II-1",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "12",
+      "gold": "73"
+    },
+    {
+      "problem_id": "2008-I-3",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "106",
+      "gold": "314"
+    },
+    {
+      "problem_id": "2010-II-13",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "113",
+      "gold": "263"
+    },
+    {
+      "problem_id": "2001-II-1",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "736",
+      "gold": "816"
+    },
+    {
+      "problem_id": "1987-6",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "87",
+      "gold": "193"
+    },
+    {
+      "problem_id": "2020-II-10",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "126",
+      "gold": "239"
+    },
+    {
+      "problem_id": "2011-II-12",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "866",
+      "gold": "97"
+    },
+    {
+      "problem_id": "1983-15",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "14",
+      "gold": "175"
+    },
+    {
+      "problem_id": "1990-6",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "600",
+      "gold": "840"
+    },
+    {
+      "problem_id": "2017-II-12",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "113",
+      "gold": "110"
+    },
+    {
+      "problem_id": "2022-I-1",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "106",
+      "gold": "116"
+    },
+    {
+      "problem_id": "2006-I-15",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "1",
+      "gold": "27"
+    },
+    {
+      "problem_id": "2017-II-3",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "103",
+      "gold": "409"
+    },
+    {
+      "problem_id": "2021-I-15",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "202",
+      "gold": "285"
+    },
+    {
+      "problem_id": "2020-I-4",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "123456789",
+      "gold": "93"
+    },
+    {
+      "problem_id": "2016-I-5",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "13",
+      "gold": "53"
+    },
+    {
+      "problem_id": "2014-II-6",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "103",
+      "gold": "167"
+    },
+    {
+      "problem_id": "1983-2",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": true,
+      "pred": "15",
+      "gold": "15"
+    },
+    {
+      "problem_id": "2014-I-7",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "101",
+      "gold": "100"
+    },
+    {
+      "problem_id": "2009-II-13",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "624",
+      "gold": "672"
+    },
+    {
+      "problem_id": "2021-II-3",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "120",
+      "gold": "80"
+    },
+    {
+      "problem_id": "2004-I-5",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "547",
+      "gold": "849"
+    },
+    {
+      "problem_id": "2000-II-13",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "103",
+      "gold": "200"
+    },
+    {
+      "problem_id": "2023-I-9",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "19936",
+      "gold": "738"
+    },
+    {
+      "problem_id": "2003-II-11",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "123",
+      "gold": "578"
+    },
+    {
+      "problem_id": "2017-I-11",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "704",
+      "gold": "360"
+    },
+    {
+      "problem_id": "1987-7",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "100",
+      "gold": "70"
+    },
+    {
+      "problem_id": "1998-2",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "105",
+      "gold": "480"
+    },
+    {
+      "problem_id": "2012-II-6",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "12",
+      "gold": "125"
+    },
+    {
+      "problem_id": "2000-I-4",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "130",
+      "gold": "260"
+    },
+    {
+      "problem_id": "2000-II-8",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "121",
+      "gold": "110"
+    },
+    {
+      "problem_id": "2020-II-8",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "1000",
+      "gold": "101"
+    },
+    {
+      "problem_id": "1994-8",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "144",
+      "gold": "315"
+    },
+    {
+      "problem_id": "2021-II-8",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "125",
+      "gold": "49"
+    },
+    {
+      "problem_id": "2011-II-7",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "499",
+      "gold": "3"
+    },
+    {
+      "problem_id": "2008-I-8",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "18",
+      "gold": "47"
+    },
+    {
+      "problem_id": "1990-3",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "118",
+      "gold": "117"
+    },
+    {
+      "problem_id": "1989-1",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "865",
+      "gold": "869"
+    },
+    {
+      "problem_id": "2003-II-5",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "108",
+      "gold": "216"
+    },
+    {
+      "problem_id": "2010-I-13",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "420",
+      "gold": "69"
+    },
+    {
+      "problem_id": "2009-II-9",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "124",
+      "gold": "0"
+    },
+    {
+      "problem_id": "1991-12",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "130",
+      "gold": "677"
+    },
+    {
+      "problem_id": "2002-II-15",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "10 + 2\\sqrt{5",
+      "gold": "282"
+    },
+    {
+      "problem_id": "2011-II-15",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "123",
+      "gold": "850"
+    },
+    {
+      "problem_id": "2002-II-4",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "202",
+      "gold": "803"
+    },
+    {
+      "problem_id": "2017-I-14",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "125",
+      "gold": "896"
+    },
+    {
+      "problem_id": "1992-14",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "9201",
+      "gold": "94"
+    },
+    {
+      "problem_id": "2011-II-11",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "41",
+      "gold": "73"
+    },
+    {
+      "problem_id": "2004-I-4",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "100",
+      "gold": "86"
+    },
+    {
+      "problem_id": "2021-I-5",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "63",
+      "gold": "31"
+    },
+    {
+      "problem_id": "2011-II-4",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "103",
+      "gold": "51"
+    },
+    {
+      "problem_id": "1998-15",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "780",
+      "gold": "761"
+    },
+    {
+      "problem_id": "2023-II-4",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "100",
+      "gold": "273"
+    },
+    {
+      "problem_id": "2013-II-13",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": true,
+      "pred": "10",
+      "gold": "10"
+    },
+    {
+      "problem_id": "2021-I-7",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "145",
+      "gold": "63"
+    },
+    {
+      "problem_id": "2013-I-12",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "123",
+      "gold": "21"
+    },
+    {
+      "problem_id": "2002-I-15",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "500",
+      "gold": "163"
+    },
+    {
+      "problem_id": "2008-I-5",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "19",
+      "gold": "14"
+    },
+    {
+      "problem_id": "2022-I-4",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "50",
+      "gold": "834"
+    },
+    {
+      "problem_id": "2013-II-6",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "224",
+      "gold": "282"
+    },
+    {
+      "problem_id": "2020-II-3",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "10",
+      "gold": "103"
+    },
+    {
+      "problem_id": "2024-II-14",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "101",
+      "gold": "211"
+    },
+    {
+      "problem_id": "2003-II-2",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "9876543216",
+      "gold": "120"
+    },
+    {
+      "problem_id": "2012-II-14",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "110",
+      "gold": "16"
+    },
+    {
+      "problem_id": "2000-II-11",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "123",
+      "gold": "131"
+    },
+    {
+      "problem_id": "2002-II-3",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "210",
+      "gold": "111"
+    },
+    {
+      "problem_id": "1997-9",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "12",
+      "gold": "233"
+    },
+    {
+      "problem_id": "1997-15",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "210",
+      "gold": "554"
+    },
+    {
+      "problem_id": "1997-12",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "20",
+      "gold": "58"
+    },
+    {
+      "problem_id": "1985-5",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "0",
+      "gold": "986"
+    },
+    {
+      "problem_id": "2014-I-8",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": true,
+      "pred": "937",
+      "gold": "937"
+    },
+    {
+      "problem_id": "2015-II-8",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "109",
+      "gold": "36"
+    },
+    {
+      "problem_id": "2022-II-6",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "43",
+      "gold": "841"
+    },
+    {
+      "problem_id": "2009-I-10",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "56",
+      "gold": "346"
+    },
+    {
+      "problem_id": "1987-14",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "1001",
+      "gold": "373"
+    },
+    {
+      "problem_id": "1990-1",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "534",
+      "gold": "528"
+    },
+    {
+      "problem_id": "2016-II-1",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "81",
+      "gold": "108"
+    },
+    {
+      "problem_id": "2019-I-6",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "84",
+      "gold": "90"
+    },
+    {
+      "problem_id": "1993-6",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "2520",
+      "gold": "495"
+    },
+    {
+      "problem_id": "1995-2",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "975",
+      "gold": "25"
+    },
+    {
+      "problem_id": "1985-11",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "65",
+      "gold": "85"
+    },
+    {
+      "problem_id": "2021-II-2",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "420",
+      "gold": "336"
+    },
+    {
+      "problem_id": "2017-I-7",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "429",
+      "gold": "564"
+    },
+    {
+      "problem_id": "2021-I-4",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "1056",
+      "gold": "331"
+    },
+    {
+      "problem_id": "2016-II-5",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "840",
+      "gold": "182"
+    },
+    {
+      "problem_id": "2006-I-6",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "333",
+      "gold": "360"
+    },
+    {
+      "problem_id": "2023-II-1",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "165",
+      "gold": "220"
+    },
+    {
+      "problem_id": "2011-I-2",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "10",
+      "gold": "36"
+    },
+    {
+      "problem_id": "2002-I-2",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "15",
+      "gold": "154"
+    },
+    {
+      "problem_id": "2010-II-14",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "5 + 2\\sqrt{5",
+      "gold": "7"
+    },
+    {
+      "problem_id": "2000-II-4",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "120",
+      "gold": "180"
+    },
+    {
+      "problem_id": "1999-12",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "156",
+      "gold": "345"
+    },
+    {
+      "problem_id": "2020-I-8",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "209",
+      "gold": "103"
+    },
+    {
+      "problem_id": "2013-I-14",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "11",
+      "gold": "36"
+    },
+    {
+      "problem_id": "2007-I-7",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "123",
+      "gold": "477"
+    },
+    {
+      "problem_id": "2013-I-4",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "126",
+      "gold": "429"
+    },
+    {
+      "problem_id": "2002-I-1",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "1093",
+      "gold": "59"
+    },
+    {
+      "problem_id": "2008-I-11",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "144",
+      "gold": "172"
+    },
+    {
+      "problem_id": "2009-II-12",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "502",
+      "gold": "803"
+    },
+    {
+      "problem_id": "2015-II-12",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "144",
+      "gold": "548"
+    },
+    {
+      "problem_id": "2015-I-7",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "196",
+      "gold": "539"
+    },
+    {
+      "problem_id": "2017-I-8",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "125",
+      "gold": "41"
+    },
+    {
+      "problem_id": "2004-II-15",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "512",
+      "gold": "593"
+    },
+    {
+      "problem_id": "1989-4",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "81",
+      "gold": "675"
+    },
+    {
+      "problem_id": "2003-II-10",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "1000",
+      "gold": "156"
+    },
+    {
+      "problem_id": "2020-I-14",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "10",
+      "gold": "85"
+    },
+    {
+      "problem_id": "1992-5",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "101",
+      "gold": "660"
+    },
+    {
+      "problem_id": "2009-II-6",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "1234",
+      "gold": "750"
+    },
+    {
+      "problem_id": "2020-II-14",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "125",
+      "gold": "10"
+    },
+    {
+      "problem_id": "2014-II-11",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "112",
+      "gold": "56"
+    },
+    {
+      "problem_id": "2004-I-7",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "105",
+      "gold": "588"
+    },
+    {
+      "problem_id": "1998-1",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "2",
+      "gold": "25"
+    },
+    {
+      "problem_id": "2000-II-12",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "148",
+      "gold": "118"
+    },
+    {
+      "problem_id": "1984-2",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "44444444444444444444",
+      "gold": "592"
+    },
+    {
+      "problem_id": "2018-I-10",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "125",
+      "gold": "4"
+    },
+    {
+      "problem_id": "2001-II-12",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "129",
+      "gold": "101"
+    },
+    {
+      "problem_id": "1992-6",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "499",
+      "gold": "156"
+    },
+    {
+      "problem_id": "2019-II-13",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "200",
+      "gold": "504"
+    },
+    {
+      "problem_id": "2000-I-2",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": true,
+      "pred": "21",
+      "gold": "21"
+    },
+    {
+      "problem_id": "2005-II-1",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "12",
+      "gold": "13"
+    },
+    {
+      "problem_id": "1996-10",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "12",
+      "gold": "159"
+    },
+    {
+      "problem_id": "2021-I-6",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "60\\sqrt{2",
+      "gold": "192"
+    },
+    {
+      "problem_id": "2007-I-14",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "2007",
+      "gold": "224"
+    },
+    {
+      "problem_id": "2022-II-5",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "172",
+      "gold": "72"
+    },
+    {
+      "problem_id": "2023-I-2",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "13",
+      "gold": "881"
+    },
+    {
+      "problem_id": "1994-12",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "416",
+      "gold": "702"
+    },
+    {
+      "problem_id": "2017-I-5",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "258",
+      "gold": "321"
+    },
+    {
+      "problem_id": "2000-I-1",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": true,
+      "pred": "8",
+      "gold": "8"
+    },
+    {
+      "problem_id": "1986-3",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "12",
+      "gold": "150"
+    },
+    {
+      "problem_id": "2012-II-12",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "3442",
+      "gold": "958"
+    },
+    {
+      "problem_id": "2014-II-15",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "10",
+      "gold": "149"
+    },
+    {
+      "problem_id": "2011-I-13",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "103",
+      "gold": "330"
+    },
+    {
+      "problem_id": "2023-I-13",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "113",
+      "gold": "125"
+    },
+    {
+      "problem_id": "2016-II-2",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "113",
+      "gold": "107"
+    },
+    {
+      "problem_id": "2023-I-8",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "48",
+      "gold": "125"
+    },
+    {
+      "problem_id": "1984-13",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "10",
+      "gold": "15"
+    },
+    {
+      "problem_id": "2021-I-8",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "3",
+      "gold": "57"
+    },
+    {
+      "problem_id": "2015-I-1",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "202",
+      "gold": "722"
+    },
+    {
+      "problem_id": "2020-II-2",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "113",
+      "gold": "171"
+    },
+    {
+      "problem_id": "2014-I-1",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "620",
+      "gold": "790"
+    },
+    {
+      "problem_id": "2020-II-6",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "101",
+      "gold": "626"
+    },
+    {
+      "problem_id": "1992-9",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "85",
+      "gold": "164"
+    },
+    {
+      "problem_id": "2019-II-14",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "105",
+      "gold": "71"
+    },
+    {
+      "problem_id": "2020-II-11",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "11",
+      "gold": "71"
+    },
+    {
+      "problem_id": "2005-I-15",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "211",
+      "gold": "38"
+    },
+    {
+      "problem_id": "2019-I-8",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "125",
+      "gold": "67"
+    },
+    {
+      "problem_id": "1985-9",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "11",
+      "gold": "49"
+    },
+    {
+      "problem_id": "2018-I-5",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "24",
+      "gold": "189"
+    },
+    {
+      "problem_id": "1984-8",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "150",
+      "gold": "160"
+    },
+    {
+      "problem_id": "1998-6",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "112",
+      "gold": "308"
+    },
+    {
+      "problem_id": "1997-10",
+      "budget": 32,
+      "converged": true,
+      "n_tokens": 232,
+      "correct": false,
+      "pred": "1170",
+      "gold": "117"
+    },
+    {
+      "problem_id": "2022-I-5",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "1320",
+      "gold": "550"
+    },
+    {
+      "problem_id": "2005-II-15",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "409",
+      "gold": "169"
+    },
+    {
+      "problem_id": "2019-I-7",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "1014",
+      "gold": "880"
+    },
+    {
+      "problem_id": "2023-II-8",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "49",
+      "gold": "24"
+    },
+    {
+      "problem_id": "2007-I-8",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "42",
+      "gold": "30"
+    },
+    {
+      "problem_id": "1985-13",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "101",
+      "gold": "401"
+    },
+    {
+      "problem_id": "2001-I-15",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "148",
+      "gold": "85"
+    },
+    {
+      "problem_id": "2010-II-1",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "132",
+      "gold": "640"
+    },
+    {
+      "problem_id": "2009-II-5",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": true,
+      "pred": "32",
+      "gold": "32"
+    },
+    {
+      "problem_id": "2006-II-7",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "7381",
+      "gold": "738"
+    },
+    {
+      "problem_id": "2020-I-3",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "100",
+      "gold": "621"
+    },
+    {
+      "problem_id": "2021-II-5",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "200",
+      "gold": "736"
+    },
+    {
+      "problem_id": "2003-I-3",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "323",
+      "gold": "484"
+    },
+    {
+      "problem_id": "2009-I-11",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "4032",
+      "gold": "600"
+    },
+    {
+      "problem_id": "2005-I-1",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "692",
+      "gold": "942"
+    },
+    {
+      "problem_id": "2013-I-8",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "12",
+      "gold": "371"
+    },
+    {
+      "problem_id": "2023-II-10",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": true,
+      "pred": "144",
+      "gold": "144"
+    },
+    {
+      "problem_id": "1999-15",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "512",
+      "gold": "408"
+    },
+    {
+      "problem_id": "2010-I-9",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "103",
+      "gold": "158"
+    },
+    {
+      "problem_id": "1993-15",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "1",
+      "gold": "997"
+    },
+    {
+      "problem_id": "2002-I-9",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "131",
+      "gold": "757"
+    },
+    {
+      "problem_id": "1994-1",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "192",
+      "gold": "63"
+    },
+    {
+      "problem_id": "2019-I-4",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "696",
+      "gold": "122"
+    },
+    {
+      "problem_id": "1990-9",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "144",
+      "gold": "73"
+    },
+    {
+      "problem_id": "2014-I-14",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "124",
+      "gold": "263"
+    },
+    {
+      "problem_id": "2020-II-4",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "153",
+      "gold": "108"
+    },
+    {
+      "problem_id": "2001-I-6",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": true,
+      "pred": "79",
+      "gold": "79"
+    },
+    {
+      "problem_id": "2011-I-11",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "376",
+      "gold": "7"
+    },
+    {
+      "problem_id": "2017-I-13",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "123",
+      "gold": "59"
+    },
+    {
+      "problem_id": "2020-II-15",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "1088",
+      "gold": "717"
+    },
+    {
+      "problem_id": "2013-II-12",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "120",
+      "gold": "540"
+    },
+    {
+      "problem_id": "1994-14",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "111",
+      "gold": "71"
+    },
+    {
+      "problem_id": "2003-I-10",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "74",
+      "gold": "83"
+    },
+    {
+      "problem_id": "1990-14",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "312",
+      "gold": "594"
+    },
+    {
+      "problem_id": "2018-I-8",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "144",
+      "gold": "147"
+    },
+    {
+      "problem_id": "1988-7",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "136",
+      "gold": "110"
+    },
+    {
+      "problem_id": "2022-I-11",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "240",
+      "gold": "150"
+    },
+    {
+      "problem_id": "2016-II-6",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "123",
+      "gold": "275"
+    },
+    {
+      "problem_id": "2004-I-2",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "100",
+      "gold": "201"
+    },
+    {
+      "problem_id": "2009-I-6",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "729",
+      "gold": "412"
+    },
+    {
+      "problem_id": "2012-I-11",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "342",
+      "gold": "373"
+    },
+    {
+      "problem_id": "1991-1",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "145",
+      "gold": "146"
+    },
+    {
+      "problem_id": "2004-II-12",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "123",
+      "gold": "134"
+    },
+    {
+      "problem_id": "2007-II-9",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "21",
+      "gold": "259"
+    },
+    {
+      "problem_id": "2003-II-1",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "105",
+      "gold": "336"
+    },
+    {
+      "problem_id": "2014-I-6",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "1007",
+      "gold": "36"
+    },
+    {
+      "problem_id": "2015-I-6",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "42",
+      "gold": "58"
+    },
+    {
+      "problem_id": "1999-1",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "7",
+      "gold": "29"
+    },
+    {
+      "problem_id": "2012-I-1",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "100",
+      "gold": "40"
+    },
+    {
+      "problem_id": "2024-II-1",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "12",
+      "gold": "73"
+    },
+    {
+      "problem_id": "2008-I-3",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "233",
+      "gold": "314"
+    },
+    {
+      "problem_id": "2010-II-13",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "113",
+      "gold": "263"
+    },
+    {
+      "problem_id": "2001-II-1",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "625",
+      "gold": "816"
+    },
+    {
+      "problem_id": "1987-6",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "87",
+      "gold": "193"
+    },
+    {
+      "problem_id": "2020-II-10",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "120",
+      "gold": "239"
+    },
+    {
+      "problem_id": "2011-II-12",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "118",
+      "gold": "97"
+    },
+    {
+      "problem_id": "1983-15",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "15",
+      "gold": "175"
+    },
+    {
+      "problem_id": "1990-6",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "600",
+      "gold": "840"
+    },
+    {
+      "problem_id": "2017-II-12",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "113",
+      "gold": "110"
+    },
+    {
+      "problem_id": "2022-I-1",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "102",
+      "gold": "116"
+    },
+    {
+      "problem_id": "2006-I-15",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "3",
+      "gold": "27"
+    },
+    {
+      "problem_id": "2017-II-3",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "113",
+      "gold": "409"
+    },
+    {
+      "problem_id": "2021-I-15",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "2021",
+      "gold": "285"
+    },
+    {
+      "problem_id": "2020-I-4",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "120",
+      "gold": "93"
+    },
+    {
+      "problem_id": "2016-I-5",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "19",
+      "gold": "53"
+    },
+    {
+      "problem_id": "2014-II-6",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "103",
+      "gold": "167"
+    },
+    {
+      "problem_id": "1983-2",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": true,
+      "pred": "15",
+      "gold": "15"
+    },
+    {
+      "problem_id": "2014-I-7",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "109",
+      "gold": "100"
+    },
+    {
+      "problem_id": "2009-II-13",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "96",
+      "gold": "672"
+    },
+    {
+      "problem_id": "2021-II-3",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "480",
+      "gold": "80"
+    },
+    {
+      "problem_id": "2004-I-5",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "103",
+      "gold": "849"
+    },
+    {
+      "problem_id": "2000-II-13",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "111",
+      "gold": "200"
+    },
+    {
+      "problem_id": "2023-I-9",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "19936",
+      "gold": "738"
+    },
+    {
+      "problem_id": "2003-II-11",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "125",
+      "gold": "578"
+    },
+    {
+      "problem_id": "2017-I-11",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "708",
+      "gold": "360"
+    },
+    {
+      "problem_id": "1987-7",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "100",
+      "gold": "70"
+    },
+    {
+      "problem_id": "1998-2",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "105",
+      "gold": "480"
+    },
+    {
+      "problem_id": "2012-II-6",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "12",
+      "gold": "125"
+    },
+    {
+      "problem_id": "2000-I-4",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "334",
+      "gold": "260"
+    },
+    {
+      "problem_id": "2000-II-8",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "121",
+      "gold": "110"
+    },
+    {
+      "problem_id": "2020-II-8",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "1000",
+      "gold": "101"
+    },
+    {
+      "problem_id": "1994-8",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "144",
+      "gold": "315"
+    },
+    {
+      "problem_id": "2021-II-8",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "125",
+      "gold": "49"
+    },
+    {
+      "problem_id": "2011-II-7",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "49",
+      "gold": "3"
+    },
+    {
+      "problem_id": "2008-I-8",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "18",
+      "gold": "47"
+    },
+    {
+      "problem_id": "1990-3",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "118",
+      "gold": "117"
+    },
+    {
+      "problem_id": "1989-1",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "865",
+      "gold": "869"
+    },
+    {
+      "problem_id": "2003-II-5",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "144",
+      "gold": "216"
+    },
+    {
+      "problem_id": "2010-I-13",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "420",
+      "gold": "69"
+    },
+    {
+      "problem_id": "2009-II-9",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "123",
+      "gold": "0"
+    },
+    {
+      "problem_id": "1991-12",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "130",
+      "gold": "677"
+    },
+    {
+      "problem_id": "2002-II-15",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "10 + 2\\sqrt{2",
+      "gold": "282"
+    },
+    {
+      "problem_id": "2011-II-15",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "123",
+      "gold": "850"
+    },
+    {
+      "problem_id": "2002-II-4",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "202",
+      "gold": "803"
+    },
+    {
+      "problem_id": "2017-I-14",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "128",
+      "gold": "896"
+    },
+    {
+      "problem_id": "1992-14",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "92",
+      "gold": "94"
+    },
+    {
+      "problem_id": "2011-II-11",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "42",
+      "gold": "73"
+    },
+    {
+      "problem_id": "2004-I-4",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "100",
+      "gold": "86"
+    },
+    {
+      "problem_id": "2021-I-5",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "11",
+      "gold": "31"
+    },
+    {
+      "problem_id": "2011-II-4",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "103",
+      "gold": "51"
+    },
+    {
+      "problem_id": "1998-15",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "1590",
+      "gold": "761"
+    },
+    {
+      "problem_id": "2023-II-4",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "100",
+      "gold": "273"
+    },
+    {
+      "problem_id": "2013-II-13",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": true,
+      "pred": "10",
+      "gold": "10"
+    },
+    {
+      "problem_id": "2021-I-7",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "145",
+      "gold": "63"
+    },
+    {
+      "problem_id": "2013-I-12",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "14",
+      "gold": "21"
+    },
+    {
+      "problem_id": "2002-I-15",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "145",
+      "gold": "163"
+    },
+    {
+      "problem_id": "2008-I-5",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "198",
+      "gold": "14"
+    },
+    {
+      "problem_id": "2022-I-4",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "50",
+      "gold": "834"
+    },
+    {
+      "problem_id": "2013-II-6",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": true,
+      "pred": "282",
+      "gold": "282"
+    },
+    {
+      "problem_id": "2020-II-3",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": true,
+      "pred": "103",
+      "gold": "103"
+    },
+    {
+      "problem_id": "2024-II-14",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "101",
+      "gold": "211"
+    },
+    {
+      "problem_id": "2003-II-2",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "8432",
+      "gold": "120"
+    },
+    {
+      "problem_id": "2012-II-14",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "112",
+      "gold": "16"
+    },
+    {
+      "problem_id": "2000-II-11",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "123",
+      "gold": "131"
+    },
+    {
+      "problem_id": "2002-II-3",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "210",
+      "gold": "111"
+    },
+    {
+      "problem_id": "1997-9",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "12",
+      "gold": "233"
+    },
+    {
+      "problem_id": "1997-15",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "105 + 105\\sqrt{3",
+      "gold": "554"
+    },
+    {
+      "problem_id": "1997-12",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "53",
+      "gold": "58"
+    },
+    {
+      "problem_id": "1985-5",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "1234",
+      "gold": "986"
+    },
+    {
+      "problem_id": "2014-I-8",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": true,
+      "pred": "937",
+      "gold": "937"
+    },
+    {
+      "problem_id": "2015-II-8",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "125",
+      "gold": "36"
+    },
+    {
+      "problem_id": "2022-II-6",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "43",
+      "gold": "841"
+    },
+    {
+      "problem_id": "2009-I-10",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "56",
+      "gold": "346"
+    },
+    {
+      "problem_id": "1987-14",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "390625",
+      "gold": "373"
+    },
+    {
+      "problem_id": "1990-1",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "534",
+      "gold": "528"
+    },
+    {
+      "problem_id": "2016-II-1",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "81",
+      "gold": "108"
+    },
+    {
+      "problem_id": "2019-I-6",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "84",
+      "gold": "90"
+    },
+    {
+      "problem_id": "1993-6",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "2520",
+      "gold": "495"
+    },
+    {
+      "problem_id": "1995-2",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "975",
+      "gold": "25"
+    },
+    {
+      "problem_id": "1985-11",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "65",
+      "gold": "85"
+    },
+    {
+      "problem_id": "2021-II-2",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "210",
+      "gold": "336"
+    },
+    {
+      "problem_id": "2017-I-7",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "429",
+      "gold": "564"
+    },
+    {
+      "problem_id": "2021-I-4",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "1051",
+      "gold": "331"
+    },
+    {
+      "problem_id": "2016-II-5",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "840",
+      "gold": "182"
+    },
+    {
+      "problem_id": "2006-I-6",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "139.5",
+      "gold": "360"
+    },
+    {
+      "problem_id": "2023-II-1",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "180",
+      "gold": "220"
+    },
+    {
+      "problem_id": "2011-I-2",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "10\\sqrt{2",
+      "gold": "36"
+    },
+    {
+      "problem_id": "2002-I-2",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "13",
+      "gold": "154"
+    },
+    {
+      "problem_id": "2010-II-14",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "5 + 2\\sqrt{5",
+      "gold": "7"
+    },
+    {
+      "problem_id": "2000-II-4",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "120",
+      "gold": "180"
+    },
+    {
+      "problem_id": "1999-12",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "154",
+      "gold": "345"
+    },
+    {
+      "problem_id": "2020-I-8",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "293",
+      "gold": "103"
+    },
+    {
+      "problem_id": "2013-I-14",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "11",
+      "gold": "36"
+    },
+    {
+      "problem_id": "2007-I-7",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "123",
+      "gold": "477"
+    },
+    {
+      "problem_id": "2013-I-4",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "126",
+      "gold": "429"
+    },
+    {
+      "problem_id": "2002-I-1",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "1093",
+      "gold": "59"
+    },
+    {
+      "problem_id": "2008-I-11",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "144",
+      "gold": "172"
+    },
+    {
+      "problem_id": "2009-II-12",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "1004",
+      "gold": "803"
+    },
+    {
+      "problem_id": "2015-II-12",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "546",
+      "gold": "548"
+    },
+    {
+      "problem_id": "2015-I-7",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "198",
+      "gold": "539"
+    },
+    {
+      "problem_id": "2017-I-8",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "123",
+      "gold": "41"
+    },
+    {
+      "problem_id": "2004-II-15",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "512",
+      "gold": "593"
+    },
+    {
+      "problem_id": "1989-4",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "105",
+      "gold": "675"
+    },
+    {
+      "problem_id": "2003-II-10",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "100",
+      "gold": "156"
+    },
+    {
+      "problem_id": "2020-I-14",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "25",
+      "gold": "85"
+    },
+    {
+      "problem_id": "1992-5",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "1001",
+      "gold": "660"
+    },
+    {
+      "problem_id": "2009-II-6",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "545",
+      "gold": "750"
+    },
+    {
+      "problem_id": "2020-II-14",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "442",
+      "gold": "10"
+    },
+    {
+      "problem_id": "2014-II-11",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "113",
+      "gold": "56"
+    },
+    {
+      "problem_id": "2004-I-7",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "105",
+      "gold": "588"
+    },
+    {
+      "problem_id": "1998-1",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "24",
+      "gold": "25"
+    },
+    {
+      "problem_id": "2000-II-12",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "148",
+      "gold": "118"
+    },
+    {
+      "problem_id": "1984-2",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "10101",
+      "gold": "592"
+    },
+    {
+      "problem_id": "2018-I-10",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "125",
+      "gold": "4"
+    },
+    {
+      "problem_id": "2001-II-12",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "129",
+      "gold": "101"
+    },
+    {
+      "problem_id": "1992-6",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "494",
+      "gold": "156"
+    },
+    {
+      "problem_id": "2019-II-13",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "200",
+      "gold": "504"
+    },
+    {
+      "problem_id": "2000-I-2",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": true,
+      "pred": "21",
+      "gold": "21"
+    },
+    {
+      "problem_id": "2005-II-1",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "15",
+      "gold": "13"
+    },
+    {
+      "problem_id": "1996-10",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "3",
+      "gold": "159"
+    },
+    {
+      "problem_id": "2021-I-6",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "60\\sqrt{10",
+      "gold": "192"
+    },
+    {
+      "problem_id": "2007-I-14",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "2007",
+      "gold": "224"
+    },
+    {
+      "problem_id": "2022-II-5",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "170",
+      "gold": "72"
+    },
+    {
+      "problem_id": "2023-I-2",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "13",
+      "gold": "881"
+    },
+    {
+      "problem_id": "1994-12",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "624",
+      "gold": "702"
+    },
+    {
+      "problem_id": "2017-I-5",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "254",
+      "gold": "321"
+    },
+    {
+      "problem_id": "2000-I-1",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": true,
+      "pred": "8",
+      "gold": "8"
+    },
+    {
+      "problem_id": "1986-3",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "15",
+      "gold": "150"
+    },
+    {
+      "problem_id": "2012-II-12",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "512",
+      "gold": "958"
+    },
+    {
+      "problem_id": "2014-II-15",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "10",
+      "gold": "149"
+    },
+    {
+      "problem_id": "2011-I-13",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "123",
+      "gold": "330"
+    },
+    {
+      "problem_id": "2023-I-13",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "11",
+      "gold": "125"
+    },
+    {
+      "problem_id": "2016-II-2",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "113",
+      "gold": "107"
+    },
+    {
+      "problem_id": "2023-I-8",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "48",
+      "gold": "125"
+    },
+    {
+      "problem_id": "1984-13",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "30",
+      "gold": "15"
+    },
+    {
+      "problem_id": "2021-I-8",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "3",
+      "gold": "57"
+    },
+    {
+      "problem_id": "2015-I-1",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "202",
+      "gold": "722"
+    },
+    {
+      "problem_id": "2020-II-2",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "113",
+      "gold": "171"
+    },
+    {
+      "problem_id": "2014-I-1",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "620",
+      "gold": "790"
+    },
+    {
+      "problem_id": "2020-II-6",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "403",
+      "gold": "626"
+    },
+    {
+      "problem_id": "1992-9",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "85",
+      "gold": "164"
+    },
+    {
+      "problem_id": "2019-II-14",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "105",
+      "gold": "71"
+    },
+    {
+      "problem_id": "2020-II-11",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "11",
+      "gold": "71"
+    },
+    {
+      "problem_id": "2005-I-15",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "211",
+      "gold": "38"
+    },
+    {
+      "problem_id": "2019-I-8",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "109",
+      "gold": "67"
+    },
+    {
+      "problem_id": "1985-9",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "13",
+      "gold": "49"
+    },
+    {
+      "problem_id": "2018-I-5",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "24",
+      "gold": "189"
+    },
+    {
+      "problem_id": "1984-8",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "150",
+      "gold": "160"
+    },
+    {
+      "problem_id": "1998-6",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": false,
+      "pred": "112",
+      "gold": "308"
+    },
+    {
+      "problem_id": "1997-10",
+      "budget": 64,
+      "converged": true,
+      "n_tokens": 264,
+      "correct": true,
+      "pred": "117",
+      "gold": "117"
+    },
+    {
+      "problem_id": "2022-I-5",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "132",
+      "gold": "550"
+    },
+    {
+      "problem_id": "2005-II-15",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "115",
+      "gold": "169"
+    },
+    {
+      "problem_id": "2019-I-7",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "1011",
+      "gold": "880"
+    },
+    {
+      "problem_id": "2023-II-8",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "49",
+      "gold": "24"
+    },
+    {
+      "problem_id": "2007-I-8",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "21",
+      "gold": "30"
+    },
+    {
+      "problem_id": "1985-13",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "101",
+      "gold": "401"
+    },
+    {
+      "problem_id": "2001-I-15",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "103",
+      "gold": "85"
+    },
+    {
+      "problem_id": "2010-II-1",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "84",
+      "gold": "640"
+    },
+    {
+      "problem_id": "2009-II-5",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": true,
+      "pred": "32",
+      "gold": "32"
+    },
+    {
+      "problem_id": "2006-II-7",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "729",
+      "gold": "738"
+    },
+    {
+      "problem_id": "2020-I-3",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "1000",
+      "gold": "621"
+    },
+    {
+      "problem_id": "2021-II-5",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "200",
+      "gold": "736"
+    },
+    {
+      "problem_id": "2003-I-3",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "344",
+      "gold": "484"
+    },
+    {
+      "problem_id": "2009-I-11",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "2008",
+      "gold": "600"
+    },
+    {
+      "problem_id": "2005-I-1",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "542",
+      "gold": "942"
+    },
+    {
+      "problem_id": "2013-I-8",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "42",
+      "gold": "371"
+    },
+    {
+      "problem_id": "2023-II-10",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "128",
+      "gold": "144"
+    },
+    {
+      "problem_id": "1999-15",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "128",
+      "gold": "408"
+    },
+    {
+      "problem_id": "2010-I-9",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "103",
+      "gold": "158"
+    },
+    {
+      "problem_id": "1993-15",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "1994",
+      "gold": "997"
+    },
+    {
+      "problem_id": "2002-I-9",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "131",
+      "gold": "757"
+    },
+    {
+      "problem_id": "1994-1",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "199",
+      "gold": "63"
+    },
+    {
+      "problem_id": "2019-I-4",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "1000",
+      "gold": "122"
+    },
+    {
+      "problem_id": "1990-9",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "123",
+      "gold": "73"
+    },
+    {
+      "problem_id": "2014-I-14",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "123",
+      "gold": "263"
+    },
+    {
+      "problem_id": "2020-II-4",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "155",
+      "gold": "108"
+    },
+    {
+      "problem_id": "2001-I-6",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": true,
+      "pred": "79",
+      "gold": "79"
+    },
+    {
+      "problem_id": "2011-I-11",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "376",
+      "gold": "7"
+    },
+    {
+      "problem_id": "2017-I-13",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "425",
+      "gold": "59"
+    },
+    {
+      "problem_id": "2020-II-15",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "1088",
+      "gold": "717"
+    },
+    {
+      "problem_id": "2013-II-12",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "120",
+      "gold": "540"
+    },
+    {
+      "problem_id": "1994-14",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "120",
+      "gold": "71"
+    },
+    {
+      "problem_id": "2003-I-10",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "85",
+      "gold": "83"
+    },
+    {
+      "problem_id": "1990-14",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "468",
+      "gold": "594"
+    },
+    {
+      "problem_id": "2018-I-8",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "100",
+      "gold": "147"
+    },
+    {
+      "problem_id": "1988-7",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "136",
+      "gold": "110"
+    },
+    {
+      "problem_id": "2022-I-11",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "105",
+      "gold": "150"
+    },
+    {
+      "problem_id": "2016-II-6",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "123456789",
+      "gold": "275"
+    },
+    {
+      "problem_id": "2004-I-2",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "100",
+      "gold": "201"
+    },
+    {
+      "problem_id": "2009-I-6",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "729",
+      "gold": "412"
+    },
+    {
+      "problem_id": "2012-I-11",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "342",
+      "gold": "373"
+    },
+    {
+      "problem_id": "1991-1",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "125",
+      "gold": "146"
+    },
+    {
+      "problem_id": "2004-II-12",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "13",
+      "gold": "134"
+    },
+    {
+      "problem_id": "2007-II-9",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "105",
+      "gold": "259"
+    },
+    {
+      "problem_id": "2003-II-1",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "105",
+      "gold": "336"
+    },
+    {
+      "problem_id": "2014-I-6",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "42",
+      "gold": "36"
+    },
+    {
+      "problem_id": "2015-I-6",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "42",
+      "gold": "58"
+    },
+    {
+      "problem_id": "1999-1",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "7",
+      "gold": "29"
+    },
+    {
+      "problem_id": "2012-I-1",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "225",
+      "gold": "40"
+    },
+    {
+      "problem_id": "2024-II-1",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "12",
+      "gold": "73"
+    },
+    {
+      "problem_id": "2008-I-3",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "233",
+      "gold": "314"
+    },
+    {
+      "problem_id": "2010-II-13",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "113",
+      "gold": "263"
+    },
+    {
+      "problem_id": "2001-II-1",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "736",
+      "gold": "816"
+    },
+    {
+      "problem_id": "1987-6",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "87",
+      "gold": "193"
+    },
+    {
+      "problem_id": "2020-II-10",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "126",
+      "gold": "239"
+    },
+    {
+      "problem_id": "2011-II-12",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "103",
+      "gold": "97"
+    },
+    {
+      "problem_id": "1983-15",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "15",
+      "gold": "175"
+    },
+    {
+      "problem_id": "1990-6",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": true,
+      "pred": "840",
+      "gold": "840"
+    },
+    {
+      "problem_id": "2017-II-12",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "113",
+      "gold": "110"
+    },
+    {
+      "problem_id": "2022-I-1",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "104",
+      "gold": "116"
+    },
+    {
+      "problem_id": "2006-I-15",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "3",
+      "gold": "27"
+    },
+    {
+      "problem_id": "2017-II-3",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "13",
+      "gold": "409"
+    },
+    {
+      "problem_id": "2021-I-15",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "210",
+      "gold": "285"
+    },
+    {
+      "problem_id": "2020-I-4",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "123",
+      "gold": "93"
+    },
+    {
+      "problem_id": "2016-I-5",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "19",
+      "gold": "53"
+    },
+    {
+      "problem_id": "2014-II-6",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "103",
+      "gold": "167"
+    },
+    {
+      "problem_id": "1983-2",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": true,
+      "pred": "15",
+      "gold": "15"
+    },
+    {
+      "problem_id": "2014-I-7",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "101",
+      "gold": "100"
+    },
+    {
+      "problem_id": "2009-II-13",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "624",
+      "gold": "672"
+    },
+    {
+      "problem_id": "2021-II-3",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "120",
+      "gold": "80"
+    },
+    {
+      "problem_id": "2004-I-5",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "103",
+      "gold": "849"
+    },
+    {
+      "problem_id": "2000-II-13",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "103",
+      "gold": "200"
+    },
+    {
+      "problem_id": "2023-I-9",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "19920",
+      "gold": "738"
+    },
+    {
+      "problem_id": "2003-II-11",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "123",
+      "gold": "578"
+    },
+    {
+      "problem_id": "2017-I-11",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "704",
+      "gold": "360"
+    },
+    {
+      "problem_id": "1987-7",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "100",
+      "gold": "70"
+    },
+    {
+      "problem_id": "1998-2",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "120",
+      "gold": "480"
+    },
+    {
+      "problem_id": "2012-II-6",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": true,
+      "pred": "125",
+      "gold": "125"
+    },
+    {
+      "problem_id": "2000-I-4",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": true,
+      "pred": "260",
+      "gold": "260"
+    },
+    {
+      "problem_id": "2000-II-8",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "121",
+      "gold": "110"
+    },
+    {
+      "problem_id": "2020-II-8",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "1000",
+      "gold": "101"
+    },
+    {
+      "problem_id": "1994-8",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "198",
+      "gold": "315"
+    },
+    {
+      "problem_id": "2021-II-8",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "123",
+      "gold": "49"
+    },
+    {
+      "problem_id": "2011-II-7",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "688",
+      "gold": "3"
+    },
+    {
+      "problem_id": "2008-I-8",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "2023",
+      "gold": "47"
+    },
+    {
+      "problem_id": "1990-3",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "118",
+      "gold": "117"
+    },
+    {
+      "problem_id": "1989-1",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "865",
+      "gold": "869"
+    },
+    {
+      "problem_id": "2003-II-5",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "108",
+      "gold": "216"
+    },
+    {
+      "problem_id": "2010-I-13",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "210",
+      "gold": "69"
+    },
+    {
+      "problem_id": "2009-II-9",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "124",
+      "gold": "0"
+    },
+    {
+      "problem_id": "1991-12",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "130",
+      "gold": "677"
+    },
+    {
+      "problem_id": "2002-II-15",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "10",
+      "gold": "282"
+    },
+    {
+      "problem_id": "2011-II-15",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "107",
+      "gold": "850"
+    },
+    {
+      "problem_id": "2002-II-4",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "202",
+      "gold": "803"
+    },
+    {
+      "problem_id": "2017-I-14",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "128",
+      "gold": "896"
+    },
+    {
+      "problem_id": "1992-14",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "92",
+      "gold": "94"
+    },
+    {
+      "problem_id": "2011-II-11",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "123",
+      "gold": "73"
+    },
+    {
+      "problem_id": "2004-I-4",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "100",
+      "gold": "86"
+    },
+    {
+      "problem_id": "2021-I-5",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "11",
+      "gold": "31"
+    },
+    {
+      "problem_id": "2011-II-4",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "13",
+      "gold": "51"
+    },
+    {
+      "problem_id": "1998-15",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "780",
+      "gold": "761"
+    },
+    {
+      "problem_id": "2023-II-4",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "100",
+      "gold": "273"
+    },
+    {
+      "problem_id": "2013-II-13",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": true,
+      "pred": "10",
+      "gold": "10"
+    },
+    {
+      "problem_id": "2021-I-7",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "145",
+      "gold": "63"
+    },
+    {
+      "problem_id": "2013-I-12",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "148",
+      "gold": "21"
+    },
+    {
+      "problem_id": "2002-I-15",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "145",
+      "gold": "163"
+    },
+    {
+      "problem_id": "2008-I-5",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "102",
+      "gold": "14"
+    },
+    {
+      "problem_id": "2022-I-4",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "17",
+      "gold": "834"
+    },
+    {
+      "problem_id": "2013-II-6",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "289",
+      "gold": "282"
+    },
+    {
+      "problem_id": "2020-II-3",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": true,
+      "pred": "103",
+      "gold": "103"
+    },
+    {
+      "problem_id": "2024-II-14",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "101",
+      "gold": "211"
+    },
+    {
+      "problem_id": "2003-II-2",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "8432",
+      "gold": "120"
+    },
+    {
+      "problem_id": "2012-II-14",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "112",
+      "gold": "16"
+    },
+    {
+      "problem_id": "2000-II-11",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "123",
+      "gold": "131"
+    },
+    {
+      "problem_id": "2002-II-3",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "210",
+      "gold": "111"
+    },
+    {
+      "problem_id": "1997-9",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "12",
+      "gold": "233"
+    },
+    {
+      "problem_id": "1997-15",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "101",
+      "gold": "554"
+    },
+    {
+      "problem_id": "1997-12",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "53",
+      "gold": "58"
+    },
+    {
+      "problem_id": "1985-5",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "1985",
+      "gold": "986"
+    },
+    {
+      "problem_id": "2014-I-8",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": true,
+      "pred": "937",
+      "gold": "937"
+    },
+    {
+      "problem_id": "2015-II-8",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "103",
+      "gold": "36"
+    },
+    {
+      "problem_id": "2022-II-6",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "43",
+      "gold": "841"
+    },
+    {
+      "problem_id": "2009-I-10",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "56",
+      "gold": "346"
+    },
+    {
+      "problem_id": "1987-14",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "390625",
+      "gold": "373"
+    },
+    {
+      "problem_id": "1990-1",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": true,
+      "pred": "528",
+      "gold": "528"
+    },
+    {
+      "problem_id": "2016-II-1",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "81",
+      "gold": "108"
+    },
+    {
+      "problem_id": "2019-I-6",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "84",
+      "gold": "90"
+    },
+    {
+      "problem_id": "1993-6",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "2520",
+      "gold": "495"
+    },
+    {
+      "problem_id": "1995-2",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "925",
+      "gold": "25"
+    },
+    {
+      "problem_id": "1985-11",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "65",
+      "gold": "85"
+    },
+    {
+      "problem_id": "2021-II-2",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "280",
+      "gold": "336"
+    },
+    {
+      "problem_id": "2017-I-7",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "420",
+      "gold": "564"
+    },
+    {
+      "problem_id": "2021-I-4",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "1056",
+      "gold": "331"
+    },
+    {
+      "problem_id": "2016-II-5",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "840",
+      "gold": "182"
+    },
+    {
+      "problem_id": "2006-I-6",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "495",
+      "gold": "360"
+    },
+    {
+      "problem_id": "2023-II-1",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "165",
+      "gold": "220"
+    },
+    {
+      "problem_id": "2011-I-2",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "10",
+      "gold": "36"
+    },
+    {
+      "problem_id": "2002-I-2",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "7",
+      "gold": "154"
+    },
+    {
+      "problem_id": "2010-II-14",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "3 + \\sqrt{5",
+      "gold": "7"
+    },
+    {
+      "problem_id": "2000-II-4",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "120",
+      "gold": "180"
+    },
+    {
+      "problem_id": "1999-12",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "154",
+      "gold": "345"
+    },
+    {
+      "problem_id": "2020-I-8",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "25",
+      "gold": "103"
+    },
+    {
+      "problem_id": "2013-I-14",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "12",
+      "gold": "36"
+    },
+    {
+      "problem_id": "2007-I-7",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "125",
+      "gold": "477"
+    },
+    {
+      "problem_id": "2013-I-4",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "140",
+      "gold": "429"
+    },
+    {
+      "problem_id": "2002-I-1",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "1001",
+      "gold": "59"
+    },
+    {
+      "problem_id": "2008-I-11",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "144",
+      "gold": "172"
+    },
+    {
+      "problem_id": "2009-II-12",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "1004",
+      "gold": "803"
+    },
+    {
+      "problem_id": "2015-II-12",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "546",
+      "gold": "548"
+    },
+    {
+      "problem_id": "2015-I-7",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "105",
+      "gold": "539"
+    },
+    {
+      "problem_id": "2017-I-8",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "4",
+      "gold": "41"
+    },
+    {
+      "problem_id": "2004-II-15",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "512",
+      "gold": "593"
+    },
+    {
+      "problem_id": "1989-4",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "225",
+      "gold": "675"
+    },
+    {
+      "problem_id": "2003-II-10",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "241",
+      "gold": "156"
+    },
+    {
+      "problem_id": "2020-I-14",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "25",
+      "gold": "85"
+    },
+    {
+      "problem_id": "1992-5",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "100",
+      "gold": "660"
+    },
+    {
+      "problem_id": "2009-II-6",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "1000",
+      "gold": "750"
+    },
+    {
+      "problem_id": "2020-II-14",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "420",
+      "gold": "10"
+    },
+    {
+      "problem_id": "2014-II-11",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "113",
+      "gold": "56"
+    },
+    {
+      "problem_id": "2004-I-7",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "105",
+      "gold": "588"
+    },
+    {
+      "problem_id": "1998-1",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": true,
+      "pred": "25",
+      "gold": "25"
+    },
+    {
+      "problem_id": "2000-II-12",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "210",
+      "gold": "118"
+    },
+    {
+      "problem_id": "1984-2",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "1334",
+      "gold": "592"
+    },
+    {
+      "problem_id": "2018-I-10",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "125",
+      "gold": "4"
+    },
+    {
+      "problem_id": "2001-II-12",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "207",
+      "gold": "101"
+    },
+    {
+      "problem_id": "1992-6",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "499",
+      "gold": "156"
+    },
+    {
+      "problem_id": "2019-II-13",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "200",
+      "gold": "504"
+    },
+    {
+      "problem_id": "2000-I-2",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": true,
+      "pred": "21",
+      "gold": "21"
+    },
+    {
+      "problem_id": "2005-II-1",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "15",
+      "gold": "13"
+    },
+    {
+      "problem_id": "1996-10",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "12",
+      "gold": "159"
+    },
+    {
+      "problem_id": "2021-I-6",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "60\\sqrt{10",
+      "gold": "192"
+    },
+    {
+      "problem_id": "2007-I-14",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "2007",
+      "gold": "224"
+    },
+    {
+      "problem_id": "2022-II-5",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "120",
+      "gold": "72"
+    },
+    {
+      "problem_id": "2023-I-2",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "11",
+      "gold": "881"
+    },
+    {
+      "problem_id": "1994-12",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "624",
+      "gold": "702"
+    },
+    {
+      "problem_id": "2017-I-5",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "254",
+      "gold": "321"
+    },
+    {
+      "problem_id": "2000-I-1",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": true,
+      "pred": "8",
+      "gold": "8"
+    },
+    {
+      "problem_id": "1986-3",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "5",
+      "gold": "150"
+    },
+    {
+      "problem_id": "2012-II-12",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "512",
+      "gold": "958"
+    },
+    {
+      "problem_id": "2014-II-15",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "10",
+      "gold": "149"
+    },
+    {
+      "problem_id": "2011-I-13",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "123",
+      "gold": "330"
+    },
+    {
+      "problem_id": "2023-I-13",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "103",
+      "gold": "125"
+    },
+    {
+      "problem_id": "2016-II-2",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "113",
+      "gold": "107"
+    },
+    {
+      "problem_id": "2023-I-8",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "60",
+      "gold": "125"
+    },
+    {
+      "problem_id": "1984-13",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "10",
+      "gold": "15"
+    },
+    {
+      "problem_id": "2021-I-8",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "3",
+      "gold": "57"
+    },
+    {
+      "problem_id": "2015-I-1",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "38",
+      "gold": "722"
+    },
+    {
+      "problem_id": "2020-II-2",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "113",
+      "gold": "171"
+    },
+    {
+      "problem_id": "2014-I-1",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "620",
+      "gold": "790"
+    },
+    {
+      "problem_id": "2020-II-6",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "4021",
+      "gold": "626"
+    },
+    {
+      "problem_id": "1992-9",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "73",
+      "gold": "164"
+    },
+    {
+      "problem_id": "2019-II-14",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "105",
+      "gold": "71"
+    },
+    {
+      "problem_id": "2020-II-11",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "11",
+      "gold": "71"
+    },
+    {
+      "problem_id": "2005-I-15",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "211",
+      "gold": "38"
+    },
+    {
+      "problem_id": "2019-I-8",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "109",
+      "gold": "67"
+    },
+    {
+      "problem_id": "1985-9",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "13",
+      "gold": "49"
+    },
+    {
+      "problem_id": "2018-I-5",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "24",
+      "gold": "189"
+    },
+    {
+      "problem_id": "1984-8",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "150",
+      "gold": "160"
+    },
+    {
+      "problem_id": "1998-6",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "112",
+      "gold": "308"
+    },
+    {
+      "problem_id": "1997-10",
+      "budget": 128,
+      "converged": true,
+      "n_tokens": 328,
+      "correct": false,
+      "pred": "1170",
+      "gold": "117"
+    }
+  ]
+}
