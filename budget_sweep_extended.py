@@ -27,7 +27,9 @@ def load_records():
 
 def accuracy_at_budget(records, budget):
     """
-    At a given budget: converged → use answer; non-converged → wrong.
+    At a given budget: a problem converges if think_end_pos <= budget.
+    Converged problems use the answer from the full run (same answer regardless of budget).
+    Non-converged (think_end_pos > budget or None) count as wrong.
     Returns (accuracy, convergence_rate, mean_tokens).
     """
     correct   = 0
@@ -35,11 +37,9 @@ def accuracy_at_budget(records, budget):
     total_tok = 0
 
     for r in records:
-        n_tok = r["total_tokens"]
-        conv  = r["converged"]
-        # Under this budget the model would have been cut off → non-converged
-        if n_tok > budget:
-            conv = False
+        think_pos = r.get("think_end_pos")
+        # Converges at this budget if think ended within budget tokens
+        conv = (think_pos is not None and think_pos <= budget)
         if conv and r.get("correct", False):
             correct += 1
         if conv:
@@ -90,26 +90,41 @@ def main():
     plot_accs    = [r["accuracy"] for r in rows]
     plot_convs   = [r["convergence_rate"] for r in rows]
 
-    fig, ax1 = plt.subplots(figsize=(9, 4))
+    # Load 1.5B results for comparison (if available)
+    small_results_file = RESULTS_DIR / "1.5B_convergence_rates.json"
+    small_rows = []
+    if small_results_file.exists():
+        with open(small_results_file) as f:
+            small_data = json.load(f)
+        small_rows = small_data.get("by_budget", [])
+
+    fig, ax1 = plt.subplots(figsize=(10, 5))
     ax2 = ax1.twinx()
 
-    ax1.plot(plot_budgets, plot_accs,  marker="o", color="steelblue", label="Accuracy", linewidth=2)
-    ax2.plot(plot_budgets, plot_convs, marker="s", color="coral",     label="Conv rate", linewidth=2, linestyle="--")
+    ax1.plot(plot_budgets, plot_accs,  marker="o", color="steelblue", label="7B Accuracy",   linewidth=2)
+    ax2.plot(plot_budgets, plot_convs, marker="s", color="steelblue", label="7B Conv rate",  linewidth=2, linestyle="--", alpha=0.5)
+
+    if small_rows:
+        sm_budgets = [r["budget"] for r in small_rows]
+        sm_accs    = [r["accuracy"] for r in small_rows]
+        sm_convs   = [r["convergence_rate"] for r in small_rows]
+        ax1.plot(sm_budgets, sm_accs,  marker="^", color="coral", label="1.5B Accuracy",  linewidth=2)
+        ax2.plot(sm_budgets, sm_convs, marker="^", color="coral", label="1.5B Conv rate", linewidth=2, linestyle="--", alpha=0.5)
 
     ax1.axhline(threshold, color="steelblue", linestyle=":", alpha=0.6,
-                label=f"95% of uncapped ({threshold:.3f})")
+                label=f"7B 95% threshold ({threshold:.3f})")
     if b_star:
         ax1.axvline(b_star, color="red", linestyle="--", alpha=0.7, label=f"B*={b_star}")
 
     ax1.set_xlabel("Token Budget")
-    ax1.set_ylabel("Accuracy", color="steelblue")
-    ax2.set_ylabel("Convergence Rate", color="coral")
+    ax1.set_ylabel("Accuracy")
+    ax2.set_ylabel("Convergence Rate")
     ax1.set_xscale("log")
-    ax1.set_title("Budget Sweep — Accuracy & Convergence vs Token Budget")
+    ax1.set_title("Budget Sweep — 7B vs 1.5B: Accuracy & Convergence")
 
     lines1, labels1 = ax1.get_legend_handles_labels()
     lines2, labels2 = ax2.get_legend_handles_labels()
-    ax1.legend(lines1 + lines2, labels1 + labels2, loc="lower right")
+    ax1.legend(lines1 + lines2, labels1 + labels2, loc="lower right", fontsize=8)
     ax1.grid(True, alpha=0.3)
     plt.tight_layout()
     plt.savefig(RESULTS_DIR / "budget_sweep_extended.pdf", bbox_inches="tight")

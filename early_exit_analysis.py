@@ -38,9 +38,8 @@ def main():
 
     # Baseline: total tokens if no cap (non-converged all hit 10k)
     total_tokens_no_cap = sum(r["total_tokens"] for r in records)
-    oracle_savings = sum(
-        MAX_TOKENS - r["total_tokens"] for r in records if not r["converged"]
-    )
+    # Oracle: perfect predictor aborts all non-converged at token 0
+    oracle_savings = sum(r["total_tokens"] for r in records if not r["converged"])
     oracle_savings_rate = oracle_savings / total_tokens_no_cap
     print(f"Total tokens (no cap): {total_tokens_no_cap:,}")
     print(f"Oracle savings: {oracle_savings:,} ({oracle_savings_rate:.1%})")
