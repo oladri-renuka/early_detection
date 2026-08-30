@@ -123,7 +123,7 @@ def run_budget(budget, problems, tokenizer, model, think_end_id, device):
         if budget < MAX_TOKENS:
             processor = BudgetForcingProcessor(think_end_id, budget)
             logits_processors = [processor]
-            max_new = budget + 50  # a few extra tokens for the answer after </think>
+            max_new = budget + 200  # extra tokens for the answer after </think>
         else:
             logits_processors = []
             max_new = MAX_TOKENS
