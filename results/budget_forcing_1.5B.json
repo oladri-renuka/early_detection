@@ -1,0 +1,7211 @@
+{
+  "model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+  "budgets": [
+    256,
+    512,
+    1024,
+    10000
+  ],
+  "results": [
+    {
+      "problem_id": "2022-I-5",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "120",
+      "gold_answer": "550"
+    },
+    {
+      "problem_id": "2005-II-15",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "13",
+      "gold_answer": "169"
+    },
+    {
+      "problem_id": "2019-I-7",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "2022",
+      "gold_answer": "880"
+    },
+    {
+      "problem_id": "2023-II-8",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "1",
+      "gold_answer": "24"
+    },
+    {
+      "problem_id": "2007-I-8",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "41",
+      "gold_answer": "30"
+    },
+    {
+      "problem_id": "1985-13",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "49",
+      "gold_answer": "401"
+    },
+    {
+      "problem_id": "2001-I-15",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "126",
+      "gold_answer": "85"
+    },
+    {
+      "problem_id": "2010-II-1",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "9864",
+      "gold_answer": "640"
+    },
+    {
+      "problem_id": "2009-II-5",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "13",
+      "gold_answer": "32"
+    },
+    {
+      "problem_id": "2006-II-7",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "56",
+      "gold_answer": "738"
+    },
+    {
+      "problem_id": "2020-I-3",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "1455",
+      "gold_answer": "621"
+    },
+    {
+      "problem_id": "2021-II-5",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "100",
+      "gold_answer": "736"
+    },
+    {
+      "problem_id": "2003-I-3",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "206",
+      "gold_answer": "484"
+    },
+    {
+      "problem_id": "2009-I-11",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "1000",
+      "gold_answer": "600"
+    },
+    {
+      "problem_id": "2005-I-1",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "1131",
+      "gold_answer": "942"
+    },
+    {
+      "problem_id": "2013-I-8",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "1000",
+      "gold_answer": "371"
+    },
+    {
+      "problem_id": "2023-II-10",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "128",
+      "gold_answer": "144"
+    },
+    {
+      "problem_id": "1999-15",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "1008",
+      "gold_answer": "408"
+    },
+    {
+      "problem_id": "2010-I-9",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "158"
+    },
+    {
+      "problem_id": "1993-15",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "1",
+      "gold_answer": "997"
+    },
+    {
+      "problem_id": "2002-I-9",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "100",
+      "gold_answer": "757"
+    },
+    {
+      "problem_id": "1994-1",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "852",
+      "gold_answer": "63"
+    },
+    {
+      "problem_id": "2019-I-4",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "1001",
+      "gold_answer": "122"
+    },
+    {
+      "problem_id": "1990-9",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "513",
+      "gold_answer": "73"
+    },
+    {
+      "problem_id": "2014-I-14",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "23",
+      "gold_answer": "263"
+    },
+    {
+      "problem_id": "2020-II-4",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "126",
+      "gold_answer": "108"
+    },
+    {
+      "problem_id": "2001-I-6",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "133",
+      "gold_answer": "79"
+    },
+    {
+      "problem_id": "2011-I-11",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "0",
+      "gold_answer": "7"
+    },
+    {
+      "problem_id": "2017-I-13",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "768",
+      "gold_answer": "59"
+    },
+    {
+      "problem_id": "2020-II-15",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "108",
+      "gold_answer": "717"
+    },
+    {
+      "problem_id": "2013-II-12",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "100",
+      "gold_answer": "540"
+    },
+    {
+      "problem_id": "1994-14",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "100",
+      "gold_answer": "71"
+    },
+    {
+      "problem_id": "2003-I-10",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "106",
+      "gold_answer": "83"
+    },
+    {
+      "problem_id": "1990-14",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "108",
+      "gold_answer": "594"
+    },
+    {
+      "problem_id": "2018-I-8",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "169",
+      "gold_answer": "147"
+    },
+    {
+      "problem_id": "1988-7",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": true,
+      "pred_answer": "110",
+      "gold_answer": "110"
+    },
+    {
+      "problem_id": "2022-I-11",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "205",
+      "gold_answer": "150"
+    },
+    {
+      "problem_id": "2016-II-6",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "56",
+      "gold_answer": "275"
+    },
+    {
+      "problem_id": "2004-I-2",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "100",
+      "gold_answer": "201"
+    },
+    {
+      "problem_id": "2009-I-6",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "717",
+      "gold_answer": "412"
+    },
+    {
+      "problem_id": "2012-I-11",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "720",
+      "gold_answer": "373"
+    },
+    {
+      "problem_id": "1991-1",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "105",
+      "gold_answer": "146"
+    },
+    {
+      "problem_id": "2004-II-12",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "134"
+    },
+    {
+      "problem_id": "2007-II-9",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "126",
+      "gold_answer": "259"
+    },
+    {
+      "problem_id": "2003-II-1",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "12",
+      "gold_answer": "336"
+    },
+    {
+      "problem_id": "2014-I-6",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "1007",
+      "gold_answer": "36"
+    },
+    {
+      "problem_id": "2015-I-6",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "100",
+      "gold_answer": "58"
+    },
+    {
+      "problem_id": "1999-1",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "23",
+      "gold_answer": "29"
+    },
+    {
+      "problem_id": "2012-I-1",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "120",
+      "gold_answer": "40"
+    },
+    {
+      "problem_id": "2024-II-1",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "124",
+      "gold_answer": "73"
+    },
+    {
+      "problem_id": "2008-I-3",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "1025",
+      "gold_answer": "314"
+    },
+    {
+      "problem_id": "2010-II-13",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "13",
+      "gold_answer": "263"
+    },
+    {
+      "problem_id": "2001-II-1",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "964",
+      "gold_answer": "816"
+    },
+    {
+      "problem_id": "1987-6",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "100",
+      "gold_answer": "193"
+    },
+    {
+      "problem_id": "2020-II-10",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "239"
+    },
+    {
+      "problem_id": "2011-II-12",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "133",
+      "gold_answer": "97"
+    },
+    {
+      "problem_id": "1983-15",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "12",
+      "gold_answer": "175"
+    },
+    {
+      "problem_id": "1990-6",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "240",
+      "gold_answer": "840"
+    },
+    {
+      "problem_id": "2017-II-12",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "0",
+      "gold_answer": "110"
+    },
+    {
+      "problem_id": "2022-I-1",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "116"
+    },
+    {
+      "problem_id": "2006-I-15",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "3",
+      "gold_answer": "27"
+    },
+    {
+      "problem_id": "2017-II-3",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "13",
+      "gold_answer": "409"
+    },
+    {
+      "problem_id": "2021-I-15",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "210",
+      "gold_answer": "285"
+    },
+    {
+      "problem_id": "2020-I-4",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "8",
+      "gold_answer": "93"
+    },
+    {
+      "problem_id": "2016-I-5",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "12",
+      "gold_answer": "53"
+    },
+    {
+      "problem_id": "2014-II-6",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "11",
+      "gold_answer": "167"
+    },
+    {
+      "problem_id": "1983-2",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": true,
+      "pred_answer": "15",
+      "gold_answer": "15"
+    },
+    {
+      "problem_id": "2014-I-7",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "101",
+      "gold_answer": "100"
+    },
+    {
+      "problem_id": "2009-II-13",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "0",
+      "gold_answer": "672"
+    },
+    {
+      "problem_id": "2021-II-3",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "40",
+      "gold_answer": "80"
+    },
+    {
+      "problem_id": "2004-I-5",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "107",
+      "gold_answer": "849"
+    },
+    {
+      "problem_id": "2000-II-13",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "102",
+      "gold_answer": "200"
+    },
+    {
+      "problem_id": "2023-I-9",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "10080",
+      "gold_answer": "738"
+    },
+    {
+      "problem_id": "2003-II-11",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "12",
+      "gold_answer": "578"
+    },
+    {
+      "problem_id": "2017-I-11",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "1296",
+      "gold_answer": "360"
+    },
+    {
+      "problem_id": "1987-7",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "16",
+      "gold_answer": "70"
+    },
+    {
+      "problem_id": "1998-2",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "171",
+      "gold_answer": "480"
+    },
+    {
+      "problem_id": "2012-II-6",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "125"
+    },
+    {
+      "problem_id": "2000-I-4",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "280",
+      "gold_answer": "260"
+    },
+    {
+      "problem_id": "2000-II-8",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "100",
+      "gold_answer": "110"
+    },
+    {
+      "problem_id": "2020-II-8",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "100001",
+      "gold_answer": "101"
+    },
+    {
+      "problem_id": "1994-8",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "121",
+      "gold_answer": "315"
+    },
+    {
+      "problem_id": "2021-II-8",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "105",
+      "gold_answer": "49"
+    },
+    {
+      "problem_id": "2011-II-7",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "120",
+      "gold_answer": "3"
+    },
+    {
+      "problem_id": "2008-I-8",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "120",
+      "gold_answer": "47"
+    },
+    {
+      "problem_id": "1990-3",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "58",
+      "gold_answer": "117"
+    },
+    {
+      "problem_id": "1989-1",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "401",
+      "gold_answer": "869"
+    },
+    {
+      "problem_id": "2003-II-5",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "144\\pi",
+      "gold_answer": "216"
+    },
+    {
+      "problem_id": "2010-I-13",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "126\\sqrt{2",
+      "gold_answer": "69"
+    },
+    {
+      "problem_id": "2009-II-9",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "997",
+      "gold_answer": "0"
+    },
+    {
+      "problem_id": "1991-12",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "100",
+      "gold_answer": "677"
+    },
+    {
+      "problem_id": "2002-II-15",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "282"
+    },
+    {
+      "problem_id": "2011-II-15",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "850"
+    },
+    {
+      "problem_id": "2002-II-4",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "134",
+      "gold_answer": "803"
+    },
+    {
+      "problem_id": "2017-I-14",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "125",
+      "gold_answer": "896"
+    },
+    {
+      "problem_id": "1992-14",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "8208",
+      "gold_answer": "94"
+    },
+    {
+      "problem_id": "2011-II-11",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "2",
+      "gold_answer": "73"
+    },
+    {
+      "problem_id": "2004-I-4",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "100",
+      "gold_answer": "86"
+    },
+    {
+      "problem_id": "2021-I-5",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "12",
+      "gold_answer": "31"
+    },
+    {
+      "problem_id": "2011-II-4",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "3",
+      "gold_answer": "51"
+    },
+    {
+      "problem_id": "1998-15",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "1560",
+      "gold_answer": "761"
+    },
+    {
+      "problem_id": "2023-II-4",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "102",
+      "gold_answer": "273"
+    },
+    {
+      "problem_id": "2013-II-13",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": true,
+      "pred_answer": "10",
+      "gold_answer": "10"
+    },
+    {
+      "problem_id": "2021-I-7",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "120",
+      "gold_answer": "63"
+    },
+    {
+      "problem_id": "2013-I-12",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "102",
+      "gold_answer": "21"
+    },
+    {
+      "problem_id": "2002-I-15",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "102",
+      "gold_answer": "163"
+    },
+    {
+      "problem_id": "2008-I-5",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "17",
+      "gold_answer": "14"
+    },
+    {
+      "problem_id": "2022-I-4",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "100",
+      "gold_answer": "834"
+    },
+    {
+      "problem_id": "2013-II-6",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "7",
+      "gold_answer": "282"
+    },
+    {
+      "problem_id": "2020-II-3",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "2013",
+      "gold_answer": "103"
+    },
+    {
+      "problem_id": "2024-II-14",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "13",
+      "gold_answer": "211"
+    },
+    {
+      "problem_id": "2003-II-2",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "987654320",
+      "gold_answer": "120"
+    },
+    {
+      "problem_id": "2012-II-14",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "1680",
+      "gold_answer": "16"
+    },
+    {
+      "problem_id": "2000-II-11",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "131"
+    },
+    {
+      "problem_id": "2002-II-3",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "1026",
+      "gold_answer": "111"
+    },
+    {
+      "problem_id": "1997-9",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "144",
+      "gold_answer": "233"
+    },
+    {
+      "problem_id": "1997-15",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "100",
+      "gold_answer": "554"
+    },
+    {
+      "problem_id": "1997-12",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "108",
+      "gold_answer": "58"
+    },
+    {
+      "problem_id": "1985-5",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "1000",
+      "gold_answer": "986"
+    },
+    {
+      "problem_id": "2014-I-8",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": true,
+      "pred_answer": "937",
+      "gold_answer": "937"
+    },
+    {
+      "problem_id": "2015-II-8",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "2",
+      "gold_answer": "36"
+    },
+    {
+      "problem_id": "2022-II-6",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "101",
+      "gold_answer": "841"
+    },
+    {
+      "problem_id": "2009-I-10",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "12",
+      "gold_answer": "346"
+    },
+    {
+      "problem_id": "1987-14",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "16",
+      "gold_answer": "373"
+    },
+    {
+      "problem_id": "1990-1",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "3240",
+      "gold_answer": "528"
+    },
+    {
+      "problem_id": "2016-II-1",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": true,
+      "pred_answer": "108",
+      "gold_answer": "108"
+    },
+    {
+      "problem_id": "2019-I-6",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "85",
+      "gold_answer": "90"
+    },
+    {
+      "problem_id": "1993-6",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "27720",
+      "gold_answer": "495"
+    },
+    {
+      "problem_id": "1995-2",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "000",
+      "gold_answer": "25"
+    },
+    {
+      "problem_id": "1985-11",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "70",
+      "gold_answer": "85"
+    },
+    {
+      "problem_id": "2021-II-2",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "420",
+      "gold_answer": "336"
+    },
+    {
+      "problem_id": "2017-I-7",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "960",
+      "gold_answer": "564"
+    },
+    {
+      "problem_id": "2021-I-4",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "1771",
+      "gold_answer": "331"
+    },
+    {
+      "problem_id": "2016-II-5",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "65",
+      "gold_answer": "182"
+    },
+    {
+      "problem_id": "2006-I-6",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "499500",
+      "gold_answer": "360"
+    },
+    {
+      "problem_id": "2023-II-1",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "200",
+      "gold_answer": "220"
+    },
+    {
+      "problem_id": "2011-I-2",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "36"
+    },
+    {
+      "problem_id": "2002-I-2",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "13",
+      "gold_answer": "154"
+    },
+    {
+      "problem_id": "2010-II-14",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "7"
+    },
+    {
+      "problem_id": "2000-II-4",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "1440",
+      "gold_answer": "180"
+    },
+    {
+      "problem_id": "1999-12",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "80",
+      "gold_answer": "345"
+    },
+    {
+      "problem_id": "2020-I-8",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "25",
+      "gold_answer": "103"
+    },
+    {
+      "problem_id": "2013-I-14",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "5",
+      "gold_answer": "36"
+    },
+    {
+      "problem_id": "2007-I-7",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "16",
+      "gold_answer": "477"
+    },
+    {
+      "problem_id": "2013-I-4",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "1008",
+      "gold_answer": "429"
+    },
+    {
+      "problem_id": "2002-I-1",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "1729",
+      "gold_answer": "59"
+    },
+    {
+      "problem_id": "2008-I-11",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": true,
+      "pred_answer": "172",
+      "gold_answer": "172"
+    },
+    {
+      "problem_id": "2009-II-12",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "1004",
+      "gold_answer": "803"
+    },
+    {
+      "problem_id": "2015-II-12",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "211",
+      "gold_answer": "548"
+    },
+    {
+      "problem_id": "2015-I-7",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "121",
+      "gold_answer": "539"
+    },
+    {
+      "problem_id": "2017-I-8",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "1",
+      "gold_answer": "41"
+    },
+    {
+      "problem_id": "2004-II-15",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "672",
+      "gold_answer": "593"
+    },
+    {
+      "problem_id": "1989-4",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "14",
+      "gold_answer": "675"
+    },
+    {
+      "problem_id": "2003-II-10",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "1260",
+      "gold_answer": "156"
+    },
+    {
+      "problem_id": "2020-I-14",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "85"
+    },
+    {
+      "problem_id": "1992-5",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "540",
+      "gold_answer": "660"
+    },
+    {
+      "problem_id": "2009-II-6",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "1608",
+      "gold_answer": "750"
+    },
+    {
+      "problem_id": "2020-II-14",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "848",
+      "gold_answer": "10"
+    },
+    {
+      "problem_id": "2014-II-11",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "14",
+      "gold_answer": "56"
+    },
+    {
+      "problem_id": "2004-I-7",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "105",
+      "gold_answer": "588"
+    },
+    {
+      "problem_id": "1998-1",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "1",
+      "gold_answer": "25"
+    },
+    {
+      "problem_id": "2000-II-12",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "12",
+      "gold_answer": "118"
+    },
+    {
+      "problem_id": "1984-2",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "120",
+      "gold_answer": "592"
+    },
+    {
+      "problem_id": "2018-I-10",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "328",
+      "gold_answer": "4"
+    },
+    {
+      "problem_id": "2001-II-12",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "105",
+      "gold_answer": "101"
+    },
+    {
+      "problem_id": "1992-6",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "129",
+      "gold_answer": "156"
+    },
+    {
+      "problem_id": "2019-II-13",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "105",
+      "gold_answer": "504"
+    },
+    {
+      "problem_id": "2000-I-2",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "12",
+      "gold_answer": "21"
+    },
+    {
+      "problem_id": "2005-II-1",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "9",
+      "gold_answer": "13"
+    },
+    {
+      "problem_id": "1996-10",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "159"
+    },
+    {
+      "problem_id": "2021-I-6",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "120",
+      "gold_answer": "192"
+    },
+    {
+      "problem_id": "2007-I-14",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "2",
+      "gold_answer": "224"
+    },
+    {
+      "problem_id": "2022-II-5",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "130",
+      "gold_answer": "72"
+    },
+    {
+      "problem_id": "2023-I-2",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "3",
+      "gold_answer": "881"
+    },
+    {
+      "problem_id": "1994-12",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "156",
+      "gold_answer": "702"
+    },
+    {
+      "problem_id": "2017-I-5",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "123",
+      "gold_answer": "321"
+    },
+    {
+      "problem_id": "2000-I-1",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "4",
+      "gold_answer": "8"
+    },
+    {
+      "problem_id": "1986-3",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "150"
+    },
+    {
+      "problem_id": "2012-II-12",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "720",
+      "gold_answer": "958"
+    },
+    {
+      "problem_id": "2014-II-15",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "149"
+    },
+    {
+      "problem_id": "2011-I-13",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "106",
+      "gold_answer": "330"
+    },
+    {
+      "problem_id": "2023-I-13",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "125"
+    },
+    {
+      "problem_id": "2016-II-2",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "1",
+      "gold_answer": "107"
+    },
+    {
+      "problem_id": "2023-I-8",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "40",
+      "gold_answer": "125"
+    },
+    {
+      "problem_id": "1984-13",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "15"
+    },
+    {
+      "problem_id": "2021-I-8",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "6",
+      "gold_answer": "57"
+    },
+    {
+      "problem_id": "2015-I-1",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "19",
+      "gold_answer": "722"
+    },
+    {
+      "problem_id": "2020-II-2",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "0.6667",
+      "gold_answer": "171"
+    },
+    {
+      "problem_id": "2014-I-1",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "1000",
+      "gold_answer": "790"
+    },
+    {
+      "problem_id": "2020-II-6",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "21",
+      "gold_answer": "626"
+    },
+    {
+      "problem_id": "1992-9",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "164"
+    },
+    {
+      "problem_id": "2019-II-14",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "91",
+      "gold_answer": "71"
+    },
+    {
+      "problem_id": "2020-II-11",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "5",
+      "gold_answer": "71"
+    },
+    {
+      "problem_id": "2005-I-15",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "126",
+      "gold_answer": "38"
+    },
+    {
+      "problem_id": "2019-I-8",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "1",
+      "gold_answer": "67"
+    },
+    {
+      "problem_id": "1985-9",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "3",
+      "gold_answer": "49"
+    },
+    {
+      "problem_id": "2018-I-5",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "12",
+      "gold_answer": "189"
+    },
+    {
+      "problem_id": "1984-8",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "120^\\circ",
+      "gold_answer": "160"
+    },
+    {
+      "problem_id": "1998-6",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "168",
+      "gold_answer": "308"
+    },
+    {
+      "problem_id": "1997-10",
+      "budget": 256,
+      "converged": true,
+      "n_tokens": 456,
+      "correct": false,
+      "pred_answer": "108",
+      "gold_answer": "117"
+    },
+    {
+      "problem_id": "2022-I-5",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "120",
+      "gold_answer": "550"
+    },
+    {
+      "problem_id": "2005-II-15",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "128",
+      "gold_answer": "169"
+    },
+    {
+      "problem_id": "2019-I-7",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "240",
+      "gold_answer": "880"
+    },
+    {
+      "problem_id": "2023-II-8",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "1",
+      "gold_answer": "24"
+    },
+    {
+      "problem_id": "2007-I-8",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "41",
+      "gold_answer": "30"
+    },
+    {
+      "problem_id": "1985-13",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "49",
+      "gold_answer": "401"
+    },
+    {
+      "problem_id": "2001-I-15",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "128",
+      "gold_answer": "85"
+    },
+    {
+      "problem_id": "2010-II-1",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "86420",
+      "gold_answer": "640"
+    },
+    {
+      "problem_id": "2009-II-5",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "13",
+      "gold_answer": "32"
+    },
+    {
+      "problem_id": "2006-II-7",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "512",
+      "gold_answer": "738"
+    },
+    {
+      "problem_id": "2020-I-3",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "2185",
+      "gold_answer": "621"
+    },
+    {
+      "problem_id": "2021-II-5",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "256",
+      "gold_answer": "736"
+    },
+    {
+      "problem_id": "2003-I-3",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "202",
+      "gold_answer": "484"
+    },
+    {
+      "problem_id": "2009-I-11",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "1225",
+      "gold_answer": "600"
+    },
+    {
+      "problem_id": "2005-I-1",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "1260",
+      "gold_answer": "942"
+    },
+    {
+      "problem_id": "2013-I-8",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "1000",
+      "gold_answer": "371"
+    },
+    {
+      "problem_id": "2023-II-10",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "1296",
+      "gold_answer": "144"
+    },
+    {
+      "problem_id": "1999-15",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "1008",
+      "gold_answer": "408"
+    },
+    {
+      "problem_id": "2010-I-9",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "158"
+    },
+    {
+      "problem_id": "1993-15",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "1",
+      "gold_answer": "997"
+    },
+    {
+      "problem_id": "2002-I-9",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "100",
+      "gold_answer": "757"
+    },
+    {
+      "problem_id": "1994-1",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "852",
+      "gold_answer": "63"
+    },
+    {
+      "problem_id": "2019-I-4",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "12321",
+      "gold_answer": "122"
+    },
+    {
+      "problem_id": "1990-9",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "171",
+      "gold_answer": "73"
+    },
+    {
+      "problem_id": "2014-I-14",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "23",
+      "gold_answer": "263"
+    },
+    {
+      "problem_id": "2020-II-4",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "126",
+      "gold_answer": "108"
+    },
+    {
+      "problem_id": "2001-I-6",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "127",
+      "gold_answer": "79"
+    },
+    {
+      "problem_id": "2011-I-11",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "000",
+      "gold_answer": "7"
+    },
+    {
+      "problem_id": "2017-I-13",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "768",
+      "gold_answer": "59"
+    },
+    {
+      "problem_id": "2020-II-15",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "108",
+      "gold_answer": "717"
+    },
+    {
+      "problem_id": "2013-II-12",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "100",
+      "gold_answer": "540"
+    },
+    {
+      "problem_id": "1994-14",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "100",
+      "gold_answer": "71"
+    },
+    {
+      "problem_id": "2003-I-10",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "106",
+      "gold_answer": "83"
+    },
+    {
+      "problem_id": "1990-14",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "108",
+      "gold_answer": "594"
+    },
+    {
+      "problem_id": "2018-I-8",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "100",
+      "gold_answer": "147"
+    },
+    {
+      "problem_id": "1988-7",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": true,
+      "pred_answer": "110",
+      "gold_answer": "110"
+    },
+    {
+      "problem_id": "2022-I-11",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "126",
+      "gold_answer": "150"
+    },
+    {
+      "problem_id": "2016-II-6",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "12",
+      "gold_answer": "275"
+    },
+    {
+      "problem_id": "2004-I-2",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "50",
+      "gold_answer": "201"
+    },
+    {
+      "problem_id": "2009-I-6",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "125",
+      "gold_answer": "412"
+    },
+    {
+      "problem_id": "2012-I-11",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "720",
+      "gold_answer": "373"
+    },
+    {
+      "problem_id": "1991-1",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "100",
+      "gold_answer": "146"
+    },
+    {
+      "problem_id": "2004-II-12",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "134"
+    },
+    {
+      "problem_id": "2007-II-9",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "120",
+      "gold_answer": "259"
+    },
+    {
+      "problem_id": "2003-II-1",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "126",
+      "gold_answer": "336"
+    },
+    {
+      "problem_id": "2014-I-6",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "1",
+      "gold_answer": "36"
+    },
+    {
+      "problem_id": "2015-I-6",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "100",
+      "gold_answer": "58"
+    },
+    {
+      "problem_id": "1999-1",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "5",
+      "gold_answer": "29"
+    },
+    {
+      "problem_id": "2012-I-1",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "129",
+      "gold_answer": "40"
+    },
+    {
+      "problem_id": "2024-II-1",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "124",
+      "gold_answer": "73"
+    },
+    {
+      "problem_id": "2008-I-3",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "1021",
+      "gold_answer": "314"
+    },
+    {
+      "problem_id": "2010-II-13",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "13",
+      "gold_answer": "263"
+    },
+    {
+      "problem_id": "2001-II-1",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "9648496164",
+      "gold_answer": "816"
+    },
+    {
+      "problem_id": "1987-6",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "100",
+      "gold_answer": "193"
+    },
+    {
+      "problem_id": "2020-II-10",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "239"
+    },
+    {
+      "problem_id": "2011-II-12",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "105",
+      "gold_answer": "97"
+    },
+    {
+      "problem_id": "1983-15",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "12",
+      "gold_answer": "175"
+    },
+    {
+      "problem_id": "1990-6",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "200",
+      "gold_answer": "840"
+    },
+    {
+      "problem_id": "2017-II-12",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "0.55",
+      "gold_answer": "110"
+    },
+    {
+      "problem_id": "2022-I-1",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "116"
+    },
+    {
+      "problem_id": "2006-I-15",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "3",
+      "gold_answer": "27"
+    },
+    {
+      "problem_id": "2017-II-3",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "11",
+      "gold_answer": "409"
+    },
+    {
+      "problem_id": "2021-I-15",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "2021",
+      "gold_answer": "285"
+    },
+    {
+      "problem_id": "2020-I-4",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "8",
+      "gold_answer": "93"
+    },
+    {
+      "problem_id": "2016-I-5",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "12",
+      "gold_answer": "53"
+    },
+    {
+      "problem_id": "2014-II-6",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "167"
+    },
+    {
+      "problem_id": "1983-2",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": true,
+      "pred_answer": "15",
+      "gold_answer": "15"
+    },
+    {
+      "problem_id": "2014-I-7",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "101",
+      "gold_answer": "100"
+    },
+    {
+      "problem_id": "2009-II-13",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "16",
+      "gold_answer": "672"
+    },
+    {
+      "problem_id": "2021-II-3",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "48",
+      "gold_answer": "80"
+    },
+    {
+      "problem_id": "2004-I-5",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "119",
+      "gold_answer": "849"
+    },
+    {
+      "problem_id": "2000-II-13",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "101",
+      "gold_answer": "200"
+    },
+    {
+      "problem_id": "2023-I-9",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "10080",
+      "gold_answer": "738"
+    },
+    {
+      "problem_id": "2003-II-11",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "125",
+      "gold_answer": "578"
+    },
+    {
+      "problem_id": "2017-I-11",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "1200",
+      "gold_answer": "360"
+    },
+    {
+      "problem_id": "1987-7",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "16",
+      "gold_answer": "70"
+    },
+    {
+      "problem_id": "1998-2",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "240",
+      "gold_answer": "480"
+    },
+    {
+      "problem_id": "2012-II-6",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": true,
+      "pred_answer": "125",
+      "gold_answer": "125"
+    },
+    {
+      "problem_id": "2000-I-4",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": true,
+      "pred_answer": "260",
+      "gold_answer": "260"
+    },
+    {
+      "problem_id": "2000-II-8",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "100",
+      "gold_answer": "110"
+    },
+    {
+      "problem_id": "2020-II-8",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "100001",
+      "gold_answer": "101"
+    },
+    {
+      "problem_id": "1994-8",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "1248",
+      "gold_answer": "315"
+    },
+    {
+      "problem_id": "2021-II-8",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "133",
+      "gold_answer": "49"
+    },
+    {
+      "problem_id": "2011-II-7",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "120",
+      "gold_answer": "3"
+    },
+    {
+      "problem_id": "2008-I-8",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "12",
+      "gold_answer": "47"
+    },
+    {
+      "problem_id": "1990-3",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "58",
+      "gold_answer": "117"
+    },
+    {
+      "problem_id": "1989-1",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": true,
+      "pred_answer": "869",
+      "gold_answer": "869"
+    },
+    {
+      "problem_id": "2003-II-5",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "144\\pi",
+      "gold_answer": "216"
+    },
+    {
+      "problem_id": "2010-I-13",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "252",
+      "gold_answer": "69"
+    },
+    {
+      "problem_id": "2009-II-9",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": true,
+      "pred_answer": "0",
+      "gold_answer": "0"
+    },
+    {
+      "problem_id": "1991-12",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "100",
+      "gold_answer": "677"
+    },
+    {
+      "problem_id": "2002-II-15",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "282"
+    },
+    {
+      "problem_id": "2011-II-15",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "850"
+    },
+    {
+      "problem_id": "2002-II-4",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "812",
+      "gold_answer": "803"
+    },
+    {
+      "problem_id": "2017-I-14",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "125",
+      "gold_answer": "896"
+    },
+    {
+      "problem_id": "1992-14",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "8208",
+      "gold_answer": "94"
+    },
+    {
+      "problem_id": "2011-II-11",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "73"
+    },
+    {
+      "problem_id": "2004-I-4",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "100",
+      "gold_answer": "86"
+    },
+    {
+      "problem_id": "2021-I-5",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "12",
+      "gold_answer": "31"
+    },
+    {
+      "problem_id": "2011-II-4",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "11",
+      "gold_answer": "51"
+    },
+    {
+      "problem_id": "1998-15",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "760",
+      "gold_answer": "761"
+    },
+    {
+      "problem_id": "2023-II-4",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "106",
+      "gold_answer": "273"
+    },
+    {
+      "problem_id": "2013-II-13",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": true,
+      "pred_answer": "10",
+      "gold_answer": "10"
+    },
+    {
+      "problem_id": "2021-I-7",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "100",
+      "gold_answer": "63"
+    },
+    {
+      "problem_id": "2013-I-12",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "126",
+      "gold_answer": "21"
+    },
+    {
+      "problem_id": "2002-I-15",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "126",
+      "gold_answer": "163"
+    },
+    {
+      "problem_id": "2008-I-5",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "17\\sqrt{2",
+      "gold_answer": "14"
+    },
+    {
+      "problem_id": "2022-I-4",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "100",
+      "gold_answer": "834"
+    },
+    {
+      "problem_id": "2013-II-6",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "501",
+      "gold_answer": "282"
+    },
+    {
+      "problem_id": "2020-II-3",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "2043",
+      "gold_answer": "103"
+    },
+    {
+      "problem_id": "2024-II-14",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "13",
+      "gold_answer": "211"
+    },
+    {
+      "problem_id": "2003-II-2",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "987654320",
+      "gold_answer": "120"
+    },
+    {
+      "problem_id": "2012-II-14",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 625,
+      "correct": false,
+      "pred_answer": "160",
+      "gold_answer": "16"
+    },
+    {
+      "problem_id": "2000-II-11",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "131"
+    },
+    {
+      "problem_id": "2002-II-3",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "46656",
+      "gold_answer": "111"
+    },
+    {
+      "problem_id": "1997-9",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "144",
+      "gold_answer": "233"
+    },
+    {
+      "problem_id": "1997-15",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "121\\sqrt{3",
+      "gold_answer": "554"
+    },
+    {
+      "problem_id": "1997-12",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "103",
+      "gold_answer": "58"
+    },
+    {
+      "problem_id": "1985-5",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "1985",
+      "gold_answer": "986"
+    },
+    {
+      "problem_id": "2014-I-8",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "037",
+      "gold_answer": "937"
+    },
+    {
+      "problem_id": "2015-II-8",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "36"
+    },
+    {
+      "problem_id": "2022-II-6",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "77",
+      "gold_answer": "841"
+    },
+    {
+      "problem_id": "2009-I-10",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "12",
+      "gold_answer": "346"
+    },
+    {
+      "problem_id": "1987-14",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "16",
+      "gold_answer": "373"
+    },
+    {
+      "problem_id": "1990-1",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "3247",
+      "gold_answer": "528"
+    },
+    {
+      "problem_id": "2016-II-1",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "12",
+      "gold_answer": "108"
+    },
+    {
+      "problem_id": "2019-I-6",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "85",
+      "gold_answer": "90"
+    },
+    {
+      "problem_id": "1993-6",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "27720",
+      "gold_answer": "495"
+    },
+    {
+      "problem_id": "1995-2",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "000",
+      "gold_answer": "25"
+    },
+    {
+      "problem_id": "1985-11",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "100",
+      "gold_answer": "85"
+    },
+    {
+      "problem_id": "2021-II-2",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "420",
+      "gold_answer": "336"
+    },
+    {
+      "problem_id": "2017-I-7",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "960",
+      "gold_answer": "564"
+    },
+    {
+      "problem_id": "2021-I-4",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "1296",
+      "gold_answer": "331"
+    },
+    {
+      "problem_id": "2016-II-5",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "65",
+      "gold_answer": "182"
+    },
+    {
+      "problem_id": "2006-I-6",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "499500",
+      "gold_answer": "360"
+    },
+    {
+      "problem_id": "2023-II-1",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": true,
+      "pred_answer": "220",
+      "gold_answer": "220"
+    },
+    {
+      "problem_id": "2011-I-2",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "36"
+    },
+    {
+      "problem_id": "2002-I-2",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "13",
+      "gold_answer": "154"
+    },
+    {
+      "problem_id": "2010-II-14",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "7"
+    },
+    {
+      "problem_id": "2000-II-4",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "360",
+      "gold_answer": "180"
+    },
+    {
+      "problem_id": "1999-12",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "120",
+      "gold_answer": "345"
+    },
+    {
+      "problem_id": "2020-I-8",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "13",
+      "gold_answer": "103"
+    },
+    {
+      "problem_id": "2013-I-14",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "5",
+      "gold_answer": "36"
+    },
+    {
+      "problem_id": "2007-I-7",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "750",
+      "gold_answer": "477"
+    },
+    {
+      "problem_id": "2013-I-4",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "105",
+      "gold_answer": "429"
+    },
+    {
+      "problem_id": "2002-I-1",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "1005",
+      "gold_answer": "59"
+    },
+    {
+      "problem_id": "2008-I-11",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": true,
+      "pred_answer": "172",
+      "gold_answer": "172"
+    },
+    {
+      "problem_id": "2009-II-12",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "1004",
+      "gold_answer": "803"
+    },
+    {
+      "problem_id": "2015-II-12",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "1716",
+      "gold_answer": "548"
+    },
+    {
+      "problem_id": "2015-I-7",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "121",
+      "gold_answer": "539"
+    },
+    {
+      "problem_id": "2017-I-8",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "0",
+      "gold_answer": "41"
+    },
+    {
+      "problem_id": "2004-II-15",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "656",
+      "gold_answer": "593"
+    },
+    {
+      "problem_id": "1989-4",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "14",
+      "gold_answer": "675"
+    },
+    {
+      "problem_id": "2003-II-10",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "1225",
+      "gold_answer": "156"
+    },
+    {
+      "problem_id": "2020-I-14",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "85"
+    },
+    {
+      "problem_id": "1992-5",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "600",
+      "gold_answer": "660"
+    },
+    {
+      "problem_id": "2009-II-6",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 682,
+      "correct": true,
+      "pred_answer": "750",
+      "gold_answer": "750"
+    },
+    {
+      "problem_id": "2020-II-14",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "1334",
+      "gold_answer": "10"
+    },
+    {
+      "problem_id": "2014-II-11",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "14",
+      "gold_answer": "56"
+    },
+    {
+      "problem_id": "2004-I-7",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "1225",
+      "gold_answer": "588"
+    },
+    {
+      "problem_id": "1998-1",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "4",
+      "gold_answer": "25"
+    },
+    {
+      "problem_id": "2000-II-12",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "118"
+    },
+    {
+      "problem_id": "1984-2",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "56",
+      "gold_answer": "592"
+    },
+    {
+      "problem_id": "2018-I-10",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "120",
+      "gold_answer": "4"
+    },
+    {
+      "problem_id": "2001-II-12",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "105",
+      "gold_answer": "101"
+    },
+    {
+      "problem_id": "1992-6",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "512",
+      "gold_answer": "156"
+    },
+    {
+      "problem_id": "2019-II-13",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "106",
+      "gold_answer": "504"
+    },
+    {
+      "problem_id": "2000-I-2",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "21"
+    },
+    {
+      "problem_id": "2005-II-1",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "9",
+      "gold_answer": "13"
+    },
+    {
+      "problem_id": "1996-10",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "159"
+    },
+    {
+      "problem_id": "2021-I-6",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "120\\sqrt{2",
+      "gold_answer": "192"
+    },
+    {
+      "problem_id": "2007-I-14",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "2",
+      "gold_answer": "224"
+    },
+    {
+      "problem_id": "2022-II-5",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "160",
+      "gold_answer": "72"
+    },
+    {
+      "problem_id": "2023-I-2",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "5",
+      "gold_answer": "881"
+    },
+    {
+      "problem_id": "1994-12",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "78",
+      "gold_answer": "702"
+    },
+    {
+      "problem_id": "2017-I-5",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "123",
+      "gold_answer": "321"
+    },
+    {
+      "problem_id": "2000-I-1",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "8"
+    },
+    {
+      "problem_id": "1986-3",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "15",
+      "gold_answer": "150"
+    },
+    {
+      "problem_id": "2012-II-12",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "5400",
+      "gold_answer": "958"
+    },
+    {
+      "problem_id": "2014-II-15",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "149"
+    },
+    {
+      "problem_id": "2011-I-13",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "330"
+    },
+    {
+      "problem_id": "2023-I-13",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "125"
+    },
+    {
+      "problem_id": "2016-II-2",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "13",
+      "gold_answer": "107"
+    },
+    {
+      "problem_id": "2023-I-8",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "40",
+      "gold_answer": "125"
+    },
+    {
+      "problem_id": "1984-13",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "15"
+    },
+    {
+      "problem_id": "2021-I-8",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "6",
+      "gold_answer": "57"
+    },
+    {
+      "problem_id": "2015-I-1",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "190",
+      "gold_answer": "722"
+    },
+    {
+      "problem_id": "2020-II-2",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "11",
+      "gold_answer": "171"
+    },
+    {
+      "problem_id": "2014-I-1",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "1000",
+      "gold_answer": "790"
+    },
+    {
+      "problem_id": "2020-II-6",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "26251",
+      "gold_answer": "626"
+    },
+    {
+      "problem_id": "1992-9",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "73",
+      "gold_answer": "164"
+    },
+    {
+      "problem_id": "2019-II-14",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "91",
+      "gold_answer": "71"
+    },
+    {
+      "problem_id": "2020-II-11",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "5",
+      "gold_answer": "71"
+    },
+    {
+      "problem_id": "2005-I-15",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "126",
+      "gold_answer": "38"
+    },
+    {
+      "problem_id": "2019-I-8",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "107",
+      "gold_answer": "67"
+    },
+    {
+      "problem_id": "1985-9",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "5",
+      "gold_answer": "49"
+    },
+    {
+      "problem_id": "2018-I-5",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "108",
+      "gold_answer": "189"
+    },
+    {
+      "problem_id": "1984-8",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "120^\\circ",
+      "gold_answer": "160"
+    },
+    {
+      "problem_id": "1998-6",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "1260",
+      "gold_answer": "308"
+    },
+    {
+      "problem_id": "1997-10",
+      "budget": 512,
+      "converged": true,
+      "n_tokens": 712,
+      "correct": false,
+      "pred_answer": "174",
+      "gold_answer": "117"
+    },
+    {
+      "problem_id": "2022-I-5",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "144",
+      "gold_answer": "550"
+    },
+    {
+      "problem_id": "2005-II-15",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "257",
+      "gold_answer": "169"
+    },
+    {
+      "problem_id": "2019-I-7",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "2016",
+      "gold_answer": "880"
+    },
+    {
+      "problem_id": "2023-II-8",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "1",
+      "gold_answer": "24"
+    },
+    {
+      "problem_id": "2007-I-8",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "30"
+    },
+    {
+      "problem_id": "1985-13",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "49",
+      "gold_answer": "401"
+    },
+    {
+      "problem_id": "2001-I-15",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "123",
+      "gold_answer": "85"
+    },
+    {
+      "problem_id": "2010-II-1",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "86420",
+      "gold_answer": "640"
+    },
+    {
+      "problem_id": "2009-II-5",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "13",
+      "gold_answer": "32"
+    },
+    {
+      "problem_id": "2006-II-7",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "512",
+      "gold_answer": "738"
+    },
+    {
+      "problem_id": "2020-I-3",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "120",
+      "gold_answer": "621"
+    },
+    {
+      "problem_id": "2021-II-5",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "a^2 + b^2",
+      "gold_answer": "736"
+    },
+    {
+      "problem_id": "2003-I-3",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "340",
+      "gold_answer": "484"
+    },
+    {
+      "problem_id": "2009-I-11",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "1224",
+      "gold_answer": "600"
+    },
+    {
+      "problem_id": "2005-I-1",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": true,
+      "pred_answer": "942",
+      "gold_answer": "942"
+    },
+    {
+      "problem_id": "2013-I-8",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "1000",
+      "gold_answer": "371"
+    },
+    {
+      "problem_id": "2023-II-10",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1187,
+      "correct": false,
+      "pred_answer": "30",
+      "gold_answer": "144"
+    },
+    {
+      "problem_id": "1999-15",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "1008",
+      "gold_answer": "408"
+    },
+    {
+      "problem_id": "2010-I-9",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "13",
+      "gold_answer": "158"
+    },
+    {
+      "problem_id": "1993-15",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "1994",
+      "gold_answer": "997"
+    },
+    {
+      "problem_id": "2002-I-9",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "132",
+      "gold_answer": "757"
+    },
+    {
+      "problem_id": "1994-1",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "876",
+      "gold_answer": "63"
+    },
+    {
+      "problem_id": "2019-I-4",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "1234567",
+      "gold_answer": "122"
+    },
+    {
+      "problem_id": "1990-9",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "133",
+      "gold_answer": "73"
+    },
+    {
+      "problem_id": "2014-I-14",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "23",
+      "gold_answer": "263"
+    },
+    {
+      "problem_id": "2020-II-4",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "126",
+      "gold_answer": "108"
+    },
+    {
+      "problem_id": "2001-I-6",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": true,
+      "pred_answer": "79",
+      "gold_answer": "79"
+    },
+    {
+      "problem_id": "2011-I-11",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "0",
+      "gold_answer": "7"
+    },
+    {
+      "problem_id": "2017-I-13",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "184",
+      "gold_answer": "59"
+    },
+    {
+      "problem_id": "2020-II-15",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "121",
+      "gold_answer": "717"
+    },
+    {
+      "problem_id": "2013-II-12",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "100",
+      "gold_answer": "540"
+    },
+    {
+      "problem_id": "1994-14",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "71"
+    },
+    {
+      "problem_id": "2003-I-10",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "50",
+      "gold_answer": "83"
+    },
+    {
+      "problem_id": "1990-14",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "108",
+      "gold_answer": "594"
+    },
+    {
+      "problem_id": "2018-I-8",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "d^2",
+      "gold_answer": "147"
+    },
+    {
+      "problem_id": "1988-7",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "154",
+      "gold_answer": "110"
+    },
+    {
+      "problem_id": "2022-I-11",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "125",
+      "gold_answer": "150"
+    },
+    {
+      "problem_id": "2016-II-6",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "275"
+    },
+    {
+      "problem_id": "2004-I-2",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1217,
+      "correct": true,
+      "pred_answer": "201",
+      "gold_answer": "201"
+    },
+    {
+      "problem_id": "2009-I-6",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "211",
+      "gold_answer": "412"
+    },
+    {
+      "problem_id": "2012-I-11",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "840",
+      "gold_answer": "373"
+    },
+    {
+      "problem_id": "1991-1",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "100",
+      "gold_answer": "146"
+    },
+    {
+      "problem_id": "2004-II-12",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "134"
+    },
+    {
+      "problem_id": "2007-II-9",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "100",
+      "gold_answer": "259"
+    },
+    {
+      "problem_id": "2003-II-1",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": true,
+      "pred_answer": "336",
+      "gold_answer": "336"
+    },
+    {
+      "problem_id": "2014-I-6",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "1007",
+      "gold_answer": "36"
+    },
+    {
+      "problem_id": "2015-I-6",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "100",
+      "gold_answer": "58"
+    },
+    {
+      "problem_id": "1999-1",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "53",
+      "gold_answer": "29"
+    },
+    {
+      "problem_id": "2012-I-1",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "129",
+      "gold_answer": "40"
+    },
+    {
+      "problem_id": "2024-II-1",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "234",
+      "gold_answer": "73"
+    },
+    {
+      "problem_id": "2008-I-3",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "106",
+      "gold_answer": "314"
+    },
+    {
+      "problem_id": "2010-II-13",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "3",
+      "gold_answer": "263"
+    },
+    {
+      "problem_id": "2001-II-1",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "9648164",
+      "gold_answer": "816"
+    },
+    {
+      "problem_id": "1987-6",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "114",
+      "gold_answer": "193"
+    },
+    {
+      "problem_id": "2020-II-10",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "12",
+      "gold_answer": "239"
+    },
+    {
+      "problem_id": "2011-II-12",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "105",
+      "gold_answer": "97"
+    },
+    {
+      "problem_id": "1983-15",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "12",
+      "gold_answer": "175"
+    },
+    {
+      "problem_id": "1990-6",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "133",
+      "gold_answer": "840"
+    },
+    {
+      "problem_id": "2017-II-12",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "101",
+      "gold_answer": "110"
+    },
+    {
+      "problem_id": "2022-I-1",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "2",
+      "gold_answer": "116"
+    },
+    {
+      "problem_id": "2006-I-15",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1205,
+      "correct": false,
+      "pred_answer": "6",
+      "gold_answer": "27"
+    },
+    {
+      "problem_id": "2017-II-3",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "11",
+      "gold_answer": "409"
+    },
+    {
+      "problem_id": "2021-I-15",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "2018",
+      "gold_answer": "285"
+    },
+    {
+      "problem_id": "2020-I-4",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "8",
+      "gold_answer": "93"
+    },
+    {
+      "problem_id": "2016-I-5",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "40",
+      "gold_answer": "53"
+    },
+    {
+      "problem_id": "2014-II-6",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "127",
+      "gold_answer": "167"
+    },
+    {
+      "problem_id": "1983-2",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": true,
+      "pred_answer": "15",
+      "gold_answer": "15"
+    },
+    {
+      "problem_id": "2014-I-7",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "101",
+      "gold_answer": "100"
+    },
+    {
+      "problem_id": "2009-II-13",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "376",
+      "gold_answer": "672"
+    },
+    {
+      "problem_id": "2021-II-3",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "48",
+      "gold_answer": "80"
+    },
+    {
+      "problem_id": "2004-I-5",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "117",
+      "gold_answer": "849"
+    },
+    {
+      "problem_id": "2000-II-13",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "102",
+      "gold_answer": "200"
+    },
+    {
+      "problem_id": "2023-I-9",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "160000",
+      "gold_answer": "738"
+    },
+    {
+      "problem_id": "2003-II-11",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "25",
+      "gold_answer": "578"
+    },
+    {
+      "problem_id": "2017-I-11",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "12960",
+      "gold_answer": "360"
+    },
+    {
+      "problem_id": "1987-7",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "100",
+      "gold_answer": "70"
+    },
+    {
+      "problem_id": "1998-2",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "240",
+      "gold_answer": "480"
+    },
+    {
+      "problem_id": "2012-II-6",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "12",
+      "gold_answer": "125"
+    },
+    {
+      "problem_id": "2000-I-4",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "130",
+      "gold_answer": "260"
+    },
+    {
+      "problem_id": "2000-II-8",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "990",
+      "gold_answer": "110"
+    },
+    {
+      "problem_id": "2020-II-8",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "1000",
+      "gold_answer": "101"
+    },
+    {
+      "problem_id": "1994-8",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "1248",
+      "gold_answer": "315"
+    },
+    {
+      "problem_id": "2021-II-8",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "128",
+      "gold_answer": "49"
+    },
+    {
+      "problem_id": "2011-II-7",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "120",
+      "gold_answer": "3"
+    },
+    {
+      "problem_id": "2008-I-8",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "24",
+      "gold_answer": "47"
+    },
+    {
+      "problem_id": "1990-3",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "28",
+      "gold_answer": "117"
+    },
+    {
+      "problem_id": "1989-1",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1207,
+      "correct": true,
+      "pred_answer": "869",
+      "gold_answer": "869"
+    },
+    {
+      "problem_id": "2003-II-5",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "144\\pi",
+      "gold_answer": "216"
+    },
+    {
+      "problem_id": "2010-I-13",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "252\\sqrt{2",
+      "gold_answer": "69"
+    },
+    {
+      "problem_id": "2009-II-9",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": true,
+      "pred_answer": "0",
+      "gold_answer": "0"
+    },
+    {
+      "problem_id": "1991-12",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "120",
+      "gold_answer": "677"
+    },
+    {
+      "problem_id": "2002-II-15",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "282"
+    },
+    {
+      "problem_id": "2011-II-15",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "850"
+    },
+    {
+      "problem_id": "2002-II-4",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "816",
+      "gold_answer": "803"
+    },
+    {
+      "problem_id": "2017-I-14",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "000",
+      "gold_answer": "896"
+    },
+    {
+      "problem_id": "1992-14",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "7392",
+      "gold_answer": "94"
+    },
+    {
+      "problem_id": "2011-II-11",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "9",
+      "gold_answer": "73"
+    },
+    {
+      "problem_id": "2004-I-4",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "100",
+      "gold_answer": "86"
+    },
+    {
+      "problem_id": "2021-I-5",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "12",
+      "gold_answer": "31"
+    },
+    {
+      "problem_id": "2011-II-4",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "41",
+      "gold_answer": "51"
+    },
+    {
+      "problem_id": "1998-15",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1180,
+      "correct": false,
+      "pred_answer": "39",
+      "gold_answer": "761"
+    },
+    {
+      "problem_id": "2023-II-4",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "106",
+      "gold_answer": "273"
+    },
+    {
+      "problem_id": "2013-II-13",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": true,
+      "pred_answer": "10",
+      "gold_answer": "10"
+    },
+    {
+      "problem_id": "2021-I-7",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "120",
+      "gold_answer": "63"
+    },
+    {
+      "problem_id": "2013-I-12",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "126",
+      "gold_answer": "21"
+    },
+    {
+      "problem_id": "2002-I-15",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "1026",
+      "gold_answer": "163"
+    },
+    {
+      "problem_id": "2008-I-5",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1157,
+      "correct": true,
+      "pred_answer": "14",
+      "gold_answer": "14"
+    },
+    {
+      "problem_id": "2022-I-4",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "167",
+      "gold_answer": "834"
+    },
+    {
+      "problem_id": "2013-II-6",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "251",
+      "gold_answer": "282"
+    },
+    {
+      "problem_id": "2020-II-3",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": true,
+      "pred_answer": "103",
+      "gold_answer": "103"
+    },
+    {
+      "problem_id": "2024-II-14",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "13",
+      "gold_answer": "211"
+    },
+    {
+      "problem_id": "2003-II-2",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "987654320",
+      "gold_answer": "120"
+    },
+    {
+      "problem_id": "2012-II-14",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1100,
+      "correct": false,
+      "pred_answer": "160",
+      "gold_answer": "16"
+    },
+    {
+      "problem_id": "2000-II-11",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "12",
+      "gold_answer": "131"
+    },
+    {
+      "problem_id": "2002-II-3",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "1296",
+      "gold_answer": "111"
+    },
+    {
+      "problem_id": "1997-9",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "144",
+      "gold_answer": "233"
+    },
+    {
+      "problem_id": "1997-15",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "121\\sqrt{3",
+      "gold_answer": "554"
+    },
+    {
+      "problem_id": "1997-12",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "108",
+      "gold_answer": "58"
+    },
+    {
+      "problem_id": "1985-5",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "1000",
+      "gold_answer": "986"
+    },
+    {
+      "problem_id": "2014-I-8",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "9376",
+      "gold_answer": "937"
+    },
+    {
+      "problem_id": "2015-II-8",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "5",
+      "gold_answer": "36"
+    },
+    {
+      "problem_id": "2022-II-6",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "77",
+      "gold_answer": "841"
+    },
+    {
+      "problem_id": "2009-I-10",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "12",
+      "gold_answer": "346"
+    },
+    {
+      "problem_id": "1987-14",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "100",
+      "gold_answer": "373"
+    },
+    {
+      "problem_id": "1990-1",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "620",
+      "gold_answer": "528"
+    },
+    {
+      "problem_id": "2016-II-1",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "12",
+      "gold_answer": "108"
+    },
+    {
+      "problem_id": "2019-I-6",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "84",
+      "gold_answer": "90"
+    },
+    {
+      "problem_id": "1993-6",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "990",
+      "gold_answer": "495"
+    },
+    {
+      "problem_id": "1995-2",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "000",
+      "gold_answer": "25"
+    },
+    {
+      "problem_id": "1985-11",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "100",
+      "gold_answer": "85"
+    },
+    {
+      "problem_id": "2021-II-2",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "420",
+      "gold_answer": "336"
+    },
+    {
+      "problem_id": "2017-I-7",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "960",
+      "gold_answer": "564"
+    },
+    {
+      "problem_id": "2021-I-4",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "1155",
+      "gold_answer": "331"
+    },
+    {
+      "problem_id": "2016-II-5",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "60",
+      "gold_answer": "182"
+    },
+    {
+      "problem_id": "2006-I-6",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "3960",
+      "gold_answer": "360"
+    },
+    {
+      "problem_id": "2023-II-1",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": true,
+      "pred_answer": "220",
+      "gold_answer": "220"
+    },
+    {
+      "problem_id": "2011-I-2",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "36"
+    },
+    {
+      "problem_id": "2002-I-2",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "14",
+      "gold_answer": "154"
+    },
+    {
+      "problem_id": "2010-II-14",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "11 + 6\\sqrt{2",
+      "gold_answer": "7"
+    },
+    {
+      "problem_id": "2000-II-4",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "45",
+      "gold_answer": "180"
+    },
+    {
+      "problem_id": "1999-12",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "140",
+      "gold_answer": "345"
+    },
+    {
+      "problem_id": "2020-I-8",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "125",
+      "gold_answer": "103"
+    },
+    {
+      "problem_id": "2013-I-14",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "5",
+      "gold_answer": "36"
+    },
+    {
+      "problem_id": "2007-I-7",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "18",
+      "gold_answer": "477"
+    },
+    {
+      "problem_id": "2013-I-4",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "105",
+      "gold_answer": "429"
+    },
+    {
+      "problem_id": "2002-I-1",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "1257",
+      "gold_answer": "59"
+    },
+    {
+      "problem_id": "2008-I-11",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": true,
+      "pred_answer": "172",
+      "gold_answer": "172"
+    },
+    {
+      "problem_id": "2009-II-12",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "1004",
+      "gold_answer": "803"
+    },
+    {
+      "problem_id": "2015-II-12",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "1716",
+      "gold_answer": "548"
+    },
+    {
+      "problem_id": "2015-I-7",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "498",
+      "gold_answer": "539"
+    },
+    {
+      "problem_id": "2017-I-8",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "0",
+      "gold_answer": "41"
+    },
+    {
+      "problem_id": "2004-II-15",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "942",
+      "gold_answer": "593"
+    },
+    {
+      "problem_id": "1989-4",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "105",
+      "gold_answer": "675"
+    },
+    {
+      "problem_id": "2003-II-10",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "1260",
+      "gold_answer": "156"
+    },
+    {
+      "problem_id": "2020-I-14",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "85"
+    },
+    {
+      "problem_id": "1992-5",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "600",
+      "gold_answer": "660"
+    },
+    {
+      "problem_id": "2009-II-6",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": true,
+      "pred_answer": "750",
+      "gold_answer": "750"
+    },
+    {
+      "problem_id": "2020-II-14",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "168",
+      "gold_answer": "10"
+    },
+    {
+      "problem_id": "2014-II-11",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "56"
+    },
+    {
+      "problem_id": "2004-I-7",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "120",
+      "gold_answer": "588"
+    },
+    {
+      "problem_id": "1998-1",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": true,
+      "pred_answer": "25",
+      "gold_answer": "25"
+    },
+    {
+      "problem_id": "2000-II-12",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "106",
+      "gold_answer": "118"
+    },
+    {
+      "problem_id": "1984-2",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": true,
+      "pred_answer": "592",
+      "gold_answer": "592"
+    },
+    {
+      "problem_id": "2018-I-10",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "624",
+      "gold_answer": "4"
+    },
+    {
+      "problem_id": "2001-II-12",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "109",
+      "gold_answer": "101"
+    },
+    {
+      "problem_id": "1992-6",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "729",
+      "gold_answer": "156"
+    },
+    {
+      "problem_id": "2019-II-13",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "17",
+      "gold_answer": "504"
+    },
+    {
+      "problem_id": "2000-I-2",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "106",
+      "gold_answer": "21"
+    },
+    {
+      "problem_id": "2005-II-1",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "13"
+    },
+    {
+      "problem_id": "1996-10",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "159"
+    },
+    {
+      "problem_id": "2021-I-6",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "120\\sqrt{2",
+      "gold_answer": "192"
+    },
+    {
+      "problem_id": "2007-I-14",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "2008",
+      "gold_answer": "224"
+    },
+    {
+      "problem_id": "2022-II-5",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "160",
+      "gold_answer": "72"
+    },
+    {
+      "problem_id": "2023-I-2",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "882",
+      "gold_answer": "881"
+    },
+    {
+      "problem_id": "1994-12",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "312",
+      "gold_answer": "702"
+    },
+    {
+      "problem_id": "2017-I-5",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "123",
+      "gold_answer": "321"
+    },
+    {
+      "problem_id": "2000-I-1",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "4",
+      "gold_answer": "8"
+    },
+    {
+      "problem_id": "1986-3",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": true,
+      "pred_answer": "150",
+      "gold_answer": "150"
+    },
+    {
+      "problem_id": "2012-II-12",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "520",
+      "gold_answer": "958"
+    },
+    {
+      "problem_id": "2014-II-15",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "4",
+      "gold_answer": "149"
+    },
+    {
+      "problem_id": "2011-I-13",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "330"
+    },
+    {
+      "problem_id": "2023-I-13",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "10",
+      "gold_answer": "125"
+    },
+    {
+      "problem_id": "2016-II-2",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "37",
+      "gold_answer": "107"
+    },
+    {
+      "problem_id": "2023-I-8",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "40",
+      "gold_answer": "125"
+    },
+    {
+      "problem_id": "1984-13",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "5",
+      "gold_answer": "15"
+    },
+    {
+      "problem_id": "2021-I-8",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "6",
+      "gold_answer": "57"
+    },
+    {
+      "problem_id": "2015-I-1",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "190",
+      "gold_answer": "722"
+    },
+    {
+      "problem_id": "2020-II-2",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "11",
+      "gold_answer": "171"
+    },
+    {
+      "problem_id": "2014-I-1",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "1000",
+      "gold_answer": "790"
+    },
+    {
+      "problem_id": "2020-II-6",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "266",
+      "gold_answer": "626"
+    },
+    {
+      "problem_id": "1992-9",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "73",
+      "gold_answer": "164"
+    },
+    {
+      "problem_id": "2019-II-14",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "106",
+      "gold_answer": "71"
+    },
+    {
+      "problem_id": "2020-II-11",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "5",
+      "gold_answer": "71"
+    },
+    {
+      "problem_id": "2005-I-15",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "120",
+      "gold_answer": "38"
+    },
+    {
+      "problem_id": "2019-I-8",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "11",
+      "gold_answer": "67"
+    },
+    {
+      "problem_id": "1985-9",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "5",
+      "gold_answer": "49"
+    },
+    {
+      "problem_id": "2018-I-5",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "12",
+      "gold_answer": "189"
+    },
+    {
+      "problem_id": "1984-8",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "120^\\circ",
+      "gold_answer": "160"
+    },
+    {
+      "problem_id": "1998-6",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "1680",
+      "gold_answer": "308"
+    },
+    {
+      "problem_id": "1997-10",
+      "budget": 1024,
+      "converged": true,
+      "n_tokens": 1224,
+      "correct": false,
+      "pred_answer": "108",
+      "gold_answer": "117"
+    },
+    {
+      "problem_id": "2022-I-5",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "550"
+    },
+    {
+      "problem_id": "2005-II-15",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "169"
+    },
+    {
+      "problem_id": "2019-I-7",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "880"
+    },
+    {
+      "problem_id": "2023-II-8",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "24"
+    },
+    {
+      "problem_id": "2007-I-8",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 3059,
+      "correct": true,
+      "pred_answer": "30",
+      "gold_answer": "30"
+    },
+    {
+      "problem_id": "1985-13",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "401"
+    },
+    {
+      "problem_id": "2001-I-15",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "85"
+    },
+    {
+      "problem_id": "2010-II-1",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "640"
+    },
+    {
+      "problem_id": "2009-II-5",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 3388,
+      "correct": true,
+      "pred_answer": "32",
+      "gold_answer": "32"
+    },
+    {
+      "problem_id": "2006-II-7",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "738"
+    },
+    {
+      "problem_id": "2020-I-3",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 4404,
+      "correct": true,
+      "pred_answer": "621",
+      "gold_answer": "621"
+    },
+    {
+      "problem_id": "2021-II-5",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "736"
+    },
+    {
+      "problem_id": "2003-I-3",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "484"
+    },
+    {
+      "problem_id": "2009-I-11",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "600"
+    },
+    {
+      "problem_id": "2005-I-1",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 2604,
+      "correct": true,
+      "pred_answer": "942",
+      "gold_answer": "942"
+    },
+    {
+      "problem_id": "2013-I-8",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "371"
+    },
+    {
+      "problem_id": "2023-II-10",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "144"
+    },
+    {
+      "problem_id": "1999-15",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "408"
+    },
+    {
+      "problem_id": "2010-I-9",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 3587,
+      "correct": true,
+      "pred_answer": "158",
+      "gold_answer": "158"
+    },
+    {
+      "problem_id": "1993-15",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 4656,
+      "correct": true,
+      "pred_answer": "997",
+      "gold_answer": "997"
+    },
+    {
+      "problem_id": "2002-I-9",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "757"
+    },
+    {
+      "problem_id": "1994-1",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 6950,
+      "correct": false,
+      "pred_answer": "323",
+      "gold_answer": "63"
+    },
+    {
+      "problem_id": "2019-I-4",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 4626,
+      "correct": false,
+      "pred_answer": "322",
+      "gold_answer": "122"
+    },
+    {
+      "problem_id": "1990-9",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 3105,
+      "correct": true,
+      "pred_answer": "73",
+      "gold_answer": "73"
+    },
+    {
+      "problem_id": "2014-I-14",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "263"
+    },
+    {
+      "problem_id": "2020-II-4",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "108"
+    },
+    {
+      "problem_id": "2001-I-6",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 3666,
+      "correct": true,
+      "pred_answer": "79",
+      "gold_answer": "79"
+    },
+    {
+      "problem_id": "2011-I-11",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "7"
+    },
+    {
+      "problem_id": "2017-I-13",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "59"
+    },
+    {
+      "problem_id": "2020-II-15",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "717"
+    },
+    {
+      "problem_id": "2013-II-12",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "540"
+    },
+    {
+      "problem_id": "1994-14",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "71"
+    },
+    {
+      "problem_id": "2003-I-10",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "83"
+    },
+    {
+      "problem_id": "1990-14",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "594"
+    },
+    {
+      "problem_id": "2018-I-8",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "147"
+    },
+    {
+      "problem_id": "1988-7",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 5573,
+      "correct": true,
+      "pred_answer": "110",
+      "gold_answer": "110"
+    },
+    {
+      "problem_id": "2022-I-11",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "150"
+    },
+    {
+      "problem_id": "2016-II-6",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 4040,
+      "correct": true,
+      "pred_answer": "275",
+      "gold_answer": "275"
+    },
+    {
+      "problem_id": "2004-I-2",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 2888,
+      "correct": true,
+      "pred_answer": "201",
+      "gold_answer": "201"
+    },
+    {
+      "problem_id": "2009-I-6",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "412"
+    },
+    {
+      "problem_id": "2012-I-11",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "373"
+    },
+    {
+      "problem_id": "1991-1",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 2262,
+      "correct": true,
+      "pred_answer": "146",
+      "gold_answer": "146"
+    },
+    {
+      "problem_id": "2004-II-12",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "134"
+    },
+    {
+      "problem_id": "2007-II-9",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "259"
+    },
+    {
+      "problem_id": "2003-II-1",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 3552,
+      "correct": true,
+      "pred_answer": "336",
+      "gold_answer": "336"
+    },
+    {
+      "problem_id": "2014-I-6",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "36"
+    },
+    {
+      "problem_id": "2015-I-6",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "58"
+    },
+    {
+      "problem_id": "1999-1",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 7448,
+      "correct": true,
+      "pred_answer": "29",
+      "gold_answer": "29"
+    },
+    {
+      "problem_id": "2012-I-1",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "40"
+    },
+    {
+      "problem_id": "2024-II-1",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "73"
+    },
+    {
+      "problem_id": "2008-I-3",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 3161,
+      "correct": true,
+      "pred_answer": "314",
+      "gold_answer": "314"
+    },
+    {
+      "problem_id": "2010-II-13",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "263"
+    },
+    {
+      "problem_id": "2001-II-1",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "816"
+    },
+    {
+      "problem_id": "1987-6",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "193"
+    },
+    {
+      "problem_id": "2020-II-10",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "239"
+    },
+    {
+      "problem_id": "2011-II-12",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "97"
+    },
+    {
+      "problem_id": "1983-15",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 6825,
+      "correct": false,
+      "pred_answer": "600",
+      "gold_answer": "175"
+    },
+    {
+      "problem_id": "1990-6",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "840"
+    },
+    {
+      "problem_id": "2017-II-12",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "110"
+    },
+    {
+      "problem_id": "2022-I-1",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 3728,
+      "correct": true,
+      "pred_answer": "116",
+      "gold_answer": "116"
+    },
+    {
+      "problem_id": "2006-I-15",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "27"
+    },
+    {
+      "problem_id": "2017-II-3",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": "7",
+      "gold_answer": "409"
+    },
+    {
+      "problem_id": "2021-I-15",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "285"
+    },
+    {
+      "problem_id": "2020-I-4",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 3313,
+      "correct": true,
+      "pred_answer": "93",
+      "gold_answer": "93"
+    },
+    {
+      "problem_id": "2016-I-5",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 2261,
+      "correct": true,
+      "pred_answer": "53",
+      "gold_answer": "53"
+    },
+    {
+      "problem_id": "2014-II-6",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 2539,
+      "correct": true,
+      "pred_answer": "167",
+      "gold_answer": "167"
+    },
+    {
+      "problem_id": "1983-2",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "15"
+    },
+    {
+      "problem_id": "2014-I-7",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "100"
+    },
+    {
+      "problem_id": "2009-II-13",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "672"
+    },
+    {
+      "problem_id": "2021-II-3",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "80"
+    },
+    {
+      "problem_id": "2004-I-5",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "849"
+    },
+    {
+      "problem_id": "2000-II-13",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "200"
+    },
+    {
+      "problem_id": "2023-I-9",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "738"
+    },
+    {
+      "problem_id": "2003-II-11",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "578"
+    },
+    {
+      "problem_id": "2017-I-11",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "360"
+    },
+    {
+      "problem_id": "1987-7",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "70"
+    },
+    {
+      "problem_id": "1998-2",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "480"
+    },
+    {
+      "problem_id": "2012-II-6",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "125"
+    },
+    {
+      "problem_id": "2000-I-4",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "260"
+    },
+    {
+      "problem_id": "2000-II-8",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 2668,
+      "correct": true,
+      "pred_answer": "110",
+      "gold_answer": "110"
+    },
+    {
+      "problem_id": "2020-II-8",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "101"
+    },
+    {
+      "problem_id": "1994-8",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "315"
+    },
+    {
+      "problem_id": "2021-II-8",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "49"
+    },
+    {
+      "problem_id": "2011-II-7",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "3"
+    },
+    {
+      "problem_id": "2008-I-8",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 2666,
+      "correct": true,
+      "pred_answer": "47",
+      "gold_answer": "47"
+    },
+    {
+      "problem_id": "1990-3",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "117"
+    },
+    {
+      "problem_id": "1989-1",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 2467,
+      "correct": true,
+      "pred_answer": "869",
+      "gold_answer": "869"
+    },
+    {
+      "problem_id": "2003-II-5",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "216"
+    },
+    {
+      "problem_id": "2010-I-13",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "69"
+    },
+    {
+      "problem_id": "2009-II-9",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "0"
+    },
+    {
+      "problem_id": "1991-12",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 4789,
+      "correct": true,
+      "pred_answer": "677",
+      "gold_answer": "677"
+    },
+    {
+      "problem_id": "2002-II-15",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 9713,
+      "correct": true,
+      "pred_answer": "282",
+      "gold_answer": "282"
+    },
+    {
+      "problem_id": "2011-II-15",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 5258,
+      "correct": true,
+      "pred_answer": "850",
+      "gold_answer": "850"
+    },
+    {
+      "problem_id": "2002-II-4",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 4584,
+      "correct": false,
+      "pred_answer": "203",
+      "gold_answer": "803"
+    },
+    {
+      "problem_id": "2017-I-14",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "896"
+    },
+    {
+      "problem_id": "1992-14",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "94"
+    },
+    {
+      "problem_id": "2011-II-11",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 2793,
+      "correct": true,
+      "pred_answer": "73",
+      "gold_answer": "73"
+    },
+    {
+      "problem_id": "2004-I-4",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "86"
+    },
+    {
+      "problem_id": "2021-I-5",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "31"
+    },
+    {
+      "problem_id": "2011-II-4",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 3069,
+      "correct": true,
+      "pred_answer": "51",
+      "gold_answer": "51"
+    },
+    {
+      "problem_id": "1998-15",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "761"
+    },
+    {
+      "problem_id": "2023-II-4",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 7631,
+      "correct": false,
+      "pred_answer": "\\dfrac{1185",
+      "gold_answer": "273"
+    },
+    {
+      "problem_id": "2013-II-13",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 3531,
+      "correct": true,
+      "pred_answer": "10",
+      "gold_answer": "10"
+    },
+    {
+      "problem_id": "2021-I-7",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "63"
+    },
+    {
+      "problem_id": "2013-I-12",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "21"
+    },
+    {
+      "problem_id": "2002-I-15",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 4446,
+      "correct": false,
+      "pred_answer": "430",
+      "gold_answer": "163"
+    },
+    {
+      "problem_id": "2008-I-5",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 2677,
+      "correct": true,
+      "pred_answer": "14",
+      "gold_answer": "14"
+    },
+    {
+      "problem_id": "2022-I-4",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "834"
+    },
+    {
+      "problem_id": "2013-II-6",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "282"
+    },
+    {
+      "problem_id": "2020-II-3",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 2624,
+      "correct": true,
+      "pred_answer": "103",
+      "gold_answer": "103"
+    },
+    {
+      "problem_id": "2024-II-14",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "211"
+    },
+    {
+      "problem_id": "2003-II-2",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "120"
+    },
+    {
+      "problem_id": "2012-II-14",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "16"
+    },
+    {
+      "problem_id": "2000-II-11",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": "215",
+      "gold_answer": "131"
+    },
+    {
+      "problem_id": "2002-II-3",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "111"
+    },
+    {
+      "problem_id": "1997-9",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 4362,
+      "correct": true,
+      "pred_answer": "233",
+      "gold_answer": "233"
+    },
+    {
+      "problem_id": "1997-15",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "554"
+    },
+    {
+      "problem_id": "1997-12",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "58"
+    },
+    {
+      "problem_id": "1985-5",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 4109,
+      "correct": true,
+      "pred_answer": "986",
+      "gold_answer": "986"
+    },
+    {
+      "problem_id": "2014-I-8",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "937"
+    },
+    {
+      "problem_id": "2015-II-8",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 5544,
+      "correct": false,
+      "pred_answer": "65",
+      "gold_answer": "36"
+    },
+    {
+      "problem_id": "2022-II-6",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 6571,
+      "correct": true,
+      "pred_answer": "841",
+      "gold_answer": "841"
+    },
+    {
+      "problem_id": "2009-I-10",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "346"
+    },
+    {
+      "problem_id": "1987-14",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "373"
+    },
+    {
+      "problem_id": "1990-1",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "528"
+    },
+    {
+      "problem_id": "2016-II-1",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 5843,
+      "correct": true,
+      "pred_answer": "108",
+      "gold_answer": "108"
+    },
+    {
+      "problem_id": "2019-I-6",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "90"
+    },
+    {
+      "problem_id": "1993-6",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "495"
+    },
+    {
+      "problem_id": "1995-2",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 3199,
+      "correct": true,
+      "pred_answer": "025",
+      "gold_answer": "25"
+    },
+    {
+      "problem_id": "1985-11",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 3333,
+      "correct": true,
+      "pred_answer": "85",
+      "gold_answer": "85"
+    },
+    {
+      "problem_id": "2021-II-2",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "336"
+    },
+    {
+      "problem_id": "2017-I-7",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "564"
+    },
+    {
+      "problem_id": "2021-I-4",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "331"
+    },
+    {
+      "problem_id": "2016-II-5",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "182"
+    },
+    {
+      "problem_id": "2006-I-6",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "360"
+    },
+    {
+      "problem_id": "2023-II-1",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 1524,
+      "correct": true,
+      "pred_answer": "220",
+      "gold_answer": "220"
+    },
+    {
+      "problem_id": "2011-I-2",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "36"
+    },
+    {
+      "problem_id": "2002-I-2",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "154"
+    },
+    {
+      "problem_id": "2010-II-14",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "7"
+    },
+    {
+      "problem_id": "2000-II-4",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "180"
+    },
+    {
+      "problem_id": "1999-12",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 10000,
+      "correct": true,
+      "pred_answer": "345",
+      "gold_answer": "345"
+    },
+    {
+      "problem_id": "2020-I-8",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "103"
+    },
+    {
+      "problem_id": "2013-I-14",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "36"
+    },
+    {
+      "problem_id": "2007-I-7",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 6674,
+      "correct": true,
+      "pred_answer": "477",
+      "gold_answer": "477"
+    },
+    {
+      "problem_id": "2013-I-4",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "429"
+    },
+    {
+      "problem_id": "2002-I-1",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "59"
+    },
+    {
+      "problem_id": "2008-I-11",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "172"
+    },
+    {
+      "problem_id": "2009-II-12",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "803"
+    },
+    {
+      "problem_id": "2015-II-12",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "548"
+    },
+    {
+      "problem_id": "2015-I-7",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "539"
+    },
+    {
+      "problem_id": "2017-I-8",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "41"
+    },
+    {
+      "problem_id": "2004-II-15",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "593"
+    },
+    {
+      "problem_id": "1989-4",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "675"
+    },
+    {
+      "problem_id": "2003-II-10",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "156"
+    },
+    {
+      "problem_id": "2020-I-14",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "85"
+    },
+    {
+      "problem_id": "1992-5",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "660"
+    },
+    {
+      "problem_id": "2009-II-6",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 3266,
+      "correct": true,
+      "pred_answer": "750",
+      "gold_answer": "750"
+    },
+    {
+      "problem_id": "2020-II-14",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "10"
+    },
+    {
+      "problem_id": "2014-II-11",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "56"
+    },
+    {
+      "problem_id": "2004-I-7",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 3463,
+      "correct": true,
+      "pred_answer": "588",
+      "gold_answer": "588"
+    },
+    {
+      "problem_id": "1998-1",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "25"
+    },
+    {
+      "problem_id": "2000-II-12",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "118"
+    },
+    {
+      "problem_id": "1984-2",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "592"
+    },
+    {
+      "problem_id": "2018-I-10",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "4"
+    },
+    {
+      "problem_id": "2001-II-12",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "101"
+    },
+    {
+      "problem_id": "1992-6",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "156"
+    },
+    {
+      "problem_id": "2019-II-13",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "504"
+    },
+    {
+      "problem_id": "2000-I-2",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 3903,
+      "correct": true,
+      "pred_answer": "21",
+      "gold_answer": "21"
+    },
+    {
+      "problem_id": "2005-II-1",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 4165,
+      "correct": true,
+      "pred_answer": "13",
+      "gold_answer": "13"
+    },
+    {
+      "problem_id": "1996-10",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 5898,
+      "correct": true,
+      "pred_answer": "159",
+      "gold_answer": "159"
+    },
+    {
+      "problem_id": "2021-I-6",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "192"
+    },
+    {
+      "problem_id": "2007-I-14",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "224"
+    },
+    {
+      "problem_id": "2022-II-5",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "72"
+    },
+    {
+      "problem_id": "2023-I-2",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 2034,
+      "correct": true,
+      "pred_answer": "881",
+      "gold_answer": "881"
+    },
+    {
+      "problem_id": "1994-12",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "702"
+    },
+    {
+      "problem_id": "2017-I-5",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "321"
+    },
+    {
+      "problem_id": "2000-I-1",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "8"
+    },
+    {
+      "problem_id": "1986-3",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 2899,
+      "correct": true,
+      "pred_answer": "150",
+      "gold_answer": "150"
+    },
+    {
+      "problem_id": "2012-II-12",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "958"
+    },
+    {
+      "problem_id": "2014-II-15",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "149"
+    },
+    {
+      "problem_id": "2011-I-13",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "330"
+    },
+    {
+      "problem_id": "2023-I-13",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "125"
+    },
+    {
+      "problem_id": "2016-II-2",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "107"
+    },
+    {
+      "problem_id": "2023-I-8",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "125"
+    },
+    {
+      "problem_id": "1984-13",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 2118,
+      "correct": true,
+      "pred_answer": "15",
+      "gold_answer": "15"
+    },
+    {
+      "problem_id": "2021-I-8",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "57"
+    },
+    {
+      "problem_id": "2015-I-1",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 4629,
+      "correct": true,
+      "pred_answer": "722",
+      "gold_answer": "722"
+    },
+    {
+      "problem_id": "2020-II-2",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 5763,
+      "correct": false,
+      "pred_answer": "141",
+      "gold_answer": "171"
+    },
+    {
+      "problem_id": "2014-I-1",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "790"
+    },
+    {
+      "problem_id": "2020-II-6",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 4026,
+      "correct": true,
+      "pred_answer": "626",
+      "gold_answer": "626"
+    },
+    {
+      "problem_id": "1992-9",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "164"
+    },
+    {
+      "problem_id": "2019-II-14",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "71"
+    },
+    {
+      "problem_id": "2020-II-11",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "71"
+    },
+    {
+      "problem_id": "2005-I-15",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "38"
+    },
+    {
+      "problem_id": "2019-I-8",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "67"
+    },
+    {
+      "problem_id": "1985-9",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 4942,
+      "correct": true,
+      "pred_answer": "49",
+      "gold_answer": "49"
+    },
+    {
+      "problem_id": "2018-I-5",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 3043,
+      "correct": true,
+      "pred_answer": "189",
+      "gold_answer": "189"
+    },
+    {
+      "problem_id": "1984-8",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "160"
+    },
+    {
+      "problem_id": "1998-6",
+      "budget": 10000,
+      "converged": true,
+      "n_tokens": 9115,
+      "correct": true,
+      "pred_answer": "308",
+      "gold_answer": "308"
+    },
+    {
+      "problem_id": "1997-10",
+      "budget": 10000,
+      "converged": false,
+      "n_tokens": 10000,
+      "correct": false,
+      "pred_answer": null,
+      "gold_answer": "117"
+    }
+  ]
+}

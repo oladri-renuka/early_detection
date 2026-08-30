@@ -62,8 +62,8 @@ def main():
     uncapped_tok  = sum(r["total_tokens"] for r in records) / n
     print(f"Uncapped: acc={uncapped_acc:.3f} conv={uncapped_conv:.3f} mean_tok={uncapped_tok:.0f}")
 
-    # Budget grid — extend downward if possible
-    budgets = [32, 64, 128, 256, 512, 1024, 10_000]
+    # Budget grid — fine-grained around where 7B actually converges
+    budgets = [32, 64, 128, 256, 512, 1024, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10_000]
 
     rows = []
     for b in budgets:

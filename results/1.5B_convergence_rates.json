@@ -1,0 +1,45 @@
+{
+  "model": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+  "by_budget": [
+    {
+      "budget": 256,
+      "n_problems": 200,
+      "convergence_rate": 1.0,
+      "n_converged": 200,
+      "accuracy": 0.03,
+      "n_correct": 6,
+      "converged_accuracy": 0.03,
+      "mean_tokens_generated": 456.0
+    },
+    {
+      "budget": 512,
+      "n_problems": 200,
+      "convergence_rate": 1.0,
+      "n_converged": 200,
+      "accuracy": 0.05,
+      "n_correct": 10,
+      "converged_accuracy": 0.05,
+      "mean_tokens_generated": 711.415
+    },
+    {
+      "budget": 1024,
+      "n_problems": 200,
+      "convergence_rate": 1.0,
+      "n_converged": 200,
+      "accuracy": 0.08,
+      "n_correct": 16,
+      "converged_accuracy": 0.08,
+      "mean_tokens_generated": 1222.425
+    },
+    {
+      "budget": 10000,
+      "n_problems": 200,
+      "convergence_rate": 0.31,
+      "n_converged": 62,
+      "accuracy": 0.26,
+      "n_correct": 52,
+      "converged_accuracy": 0.8387096774193549,
+      "mean_tokens_generated": 8284.87
+    }
+  ]
+}

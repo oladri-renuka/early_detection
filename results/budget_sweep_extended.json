@@ -1,0 +1,99 @@
+{
+  "n_problems": 200,
+  "uncapped_accuracy": 0.565,
+  "uncapped_convergence_rate": 0.575,
+  "saturation_threshold": 0.95,
+  "b_star": null,
+  "by_budget": [
+    {
+      "budget": 32,
+      "accuracy": 0.0,
+      "convergence_rate": 0.0,
+      "mean_tokens_generated": 32.0
+    },
+    {
+      "budget": 64,
+      "accuracy": 0.0,
+      "convergence_rate": 0.0,
+      "mean_tokens_generated": 64.0
+    },
+    {
+      "budget": 128,
+      "accuracy": 0.0,
+      "convergence_rate": 0.0,
+      "mean_tokens_generated": 128.0
+    },
+    {
+      "budget": 256,
+      "accuracy": 0.0,
+      "convergence_rate": 0.0,
+      "mean_tokens_generated": 256.0
+    },
+    {
+      "budget": 512,
+      "accuracy": 0.0,
+      "convergence_rate": 0.0,
+      "mean_tokens_generated": 512.0
+    },
+    {
+      "budget": 1024,
+      "accuracy": 0.005,
+      "convergence_rate": 0.005,
+      "mean_tokens_generated": 1024.0
+    },
+    {
+      "budget": 2000,
+      "accuracy": 0.06,
+      "convergence_rate": 0.06,
+      "mean_tokens_generated": 1997.09
+    },
+    {
+      "budget": 3000,
+      "accuracy": 0.16,
+      "convergence_rate": 0.16,
+      "mean_tokens_generated": 2940.84
+    },
+    {
+      "budget": 4000,
+      "accuracy": 0.31,
+      "convergence_rate": 0.315,
+      "mean_tokens_generated": 3787.37
+    },
+    {
+      "budget": 5000,
+      "accuracy": 0.39,
+      "convergence_rate": 0.4,
+      "mean_tokens_generated": 4500.805
+    },
+    {
+      "budget": 6000,
+      "accuracy": 0.46,
+      "convergence_rate": 0.475,
+      "mean_tokens_generated": 5108.445
+    },
+    {
+      "budget": 7000,
+      "accuracy": 0.47,
+      "convergence_rate": 0.495,
+      "mean_tokens_generated": 5646.125
+    },
+    {
+      "budget": 8000,
+      "accuracy": 0.505,
+      "convergence_rate": 0.535,
+      "mean_tokens_generated": 6150.205
+    },
+    {
+      "budget": 9000,
+      "accuracy": 0.515,
+      "convergence_rate": 0.55,
+      "mean_tokens_generated": 6620.585
+    },
+    {
+      "budget": 10000,
+      "accuracy": 0.52,
+      "convergence_rate": 0.575,
+      "mean_tokens_generated": 7072.06
+    }
+  ]
+}
