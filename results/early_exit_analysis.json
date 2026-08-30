@@ -1,0 +1,63 @@
+{
+  "n_problems": 200,
+  "total_tokens_no_cap": 1414412,
+  "oracle_savings": 850000,
+  "oracle_savings_rate": 0.6009564398492094,
+  "by_cap": [
+    {
+      "cap": 4000,
+      "n_non_conv_aborted": 85,
+      "n_conv_false_abort": 76,
+      "n_non_conv_under_cap": 0,
+      "n_conv_under_cap": 39,
+      "tokens_saved": 510000,
+      "tokens_lost": 146938,
+      "net_tokens_saved": 363062,
+      "net_savings_rate": 0.25668758466415725
+    },
+    {
+      "cap": 5000,
+      "n_non_conv_aborted": 85,
+      "n_conv_false_abort": 46,
+      "n_non_conv_under_cap": 0,
+      "n_conv_under_cap": 69,
+      "tokens_saved": 425000,
+      "tokens_lost": 89251,
+      "net_tokens_saved": 335749,
+      "net_savings_rate": 0.23737708673286143
+    },
+    {
+      "cap": 5500,
+      "n_non_conv_aborted": 85,
+      "n_conv_false_abort": 37,
+      "n_non_conv_under_cap": 0,
+      "n_conv_under_cap": 78,
+      "tokens_saved": 382500,
+      "tokens_lost": 69205,
+      "net_tokens_saved": 313295,
+      "net_savings_rate": 0.22150193861477419
+    },
+    {
+      "cap": 6000,
+      "n_non_conv_aborted": 85,
+      "n_conv_false_abort": 30,
+      "n_non_conv_under_cap": 0,
+      "n_conv_under_cap": 85,
+      "tokens_saved": 340000,
+      "tokens_lost": 52723,
+      "net_tokens_saved": 287277,
+      "net_savings_rate": 0.20310701549477805
+    },
+    {
+      "cap": 7000,
+      "n_non_conv_aborted": 85,
+      "n_conv_false_abort": 18,
+      "n_non_conv_under_cap": 0,
+      "n_conv_under_cap": 97,
+      "tokens_saved": 255000,
+      "tokens_lost": 30187,
+      "net_tokens_saved": 224813,
+      "net_savings_rate": 0.15894449424920037
+    }
+  ]
+}

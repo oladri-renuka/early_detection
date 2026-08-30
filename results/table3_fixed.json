@@ -1,0 +1,51 @@
+{
+  "n_problems": 200,
+  "difficulty_proxy": "AIME problem number within year (1-15)",
+  "tercile_size": 66,
+  "easy": {
+    "label": "Easy",
+    "n": 66,
+    "n_converged": 40,
+    "convergence_rate": 0.6060606060606061,
+    "n_correct": 40,
+    "accuracy": 0.6060606060606061,
+    "converged_accuracy": 0.925,
+    "non_converged_accuracy": 0.11538461538461539
+  },
+  "medium": {
+    "label": "Medium",
+    "n": 67,
+    "n_converged": 35,
+    "convergence_rate": 0.5223880597014925,
+    "n_correct": 34,
+    "accuracy": 0.5074626865671642,
+    "converged_accuracy": 0.8857142857142857,
+    "non_converged_accuracy": 0.09375
+  },
+  "hard": {
+    "label": "Hard",
+    "n": 67,
+    "n_converged": 40,
+    "convergence_rate": 0.5970149253731343,
+    "n_correct": 39,
+    "accuracy": 0.582089552238806,
+    "converged_accuracy": 0.9,
+    "non_converged_accuracy": 0.1111111111111111
+  },
+  "total": {
+    "label": "Total",
+    "n": 200,
+    "n_converged": 115,
+    "convergence_rate": 0.575,
+    "n_correct": 113,
+    "accuracy": 0.565,
+    "converged_accuracy": 0.9043478260869565,
+    "non_converged_accuracy": 0.10588235294117647
+  },
+  "consistency": {
+    "total_converged": 115,
+    "total_correct": 113,
+    "convergence_rate": 0.575,
+    "accuracy": 0.565
+  }
+}
