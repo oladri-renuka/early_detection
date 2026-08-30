@@ -140,7 +140,25 @@ def run_budget(budget, problems, tokenizer, model, think_end_id, device):
         text      = tokenizer.decode(generated, skip_special_tokens=False)
         n_tokens  = len(generated)
         converged = THINK_END in text
-        answer    = extract_answer(text)
+
+        # If budget-forced, the model may not produce \boxed{} naturally.
+        # Re-prompt with the partial generation + </think> to elicit an answer.
+        if budget < MAX_TOKENS and converged and extract_answer(text) is None:
+            think_part = text[:text.index(THINK_END) + len(THINK_END)]
+            answer_prompt = prompt + think_part + "\n\nThe answer is $\\boxed{"
+            ans_inputs = tokenizer(answer_prompt, return_tensors="pt").to(device)
+            with torch.no_grad():
+                ans_out = model.generate(
+                    **ans_inputs, max_new_tokens=20, do_sample=False,
+                )
+            ans_text = tokenizer.decode(
+                ans_out[0][ans_inputs["input_ids"].shape[1]:], skip_special_tokens=True
+            )
+            # Extract number before closing brace
+            m = re.match(r"([^}]+)", ans_text.strip())
+            answer = m.group(1).strip() if m else None
+        else:
+            answer = extract_answer(text)
         correct   = is_correct(answer, gold)
 
         results.append({
