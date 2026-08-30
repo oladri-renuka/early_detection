@@ -35,7 +35,7 @@ def accuracy_at_budget(records, budget):
     total_tok = 0
 
     for r in records:
-        n_tok = r["n_tokens"]
+        n_tok = r["total_tokens"]
         conv  = r["converged"]
         # Under this budget the model would have been cut off → non-converged
         if n_tok > budget:
@@ -44,7 +44,7 @@ def accuracy_at_budget(records, budget):
             correct += 1
         if conv:
             converged += 1
-        total_tok += min(n_tok, budget)
+        total_tok += min(r["total_tokens"], budget)
 
     n = len(records)
     return correct / n, converged / n, total_tok / n
@@ -59,7 +59,7 @@ def main():
     # Uncapped (10k) baseline
     uncapped_acc  = sum(r.get("correct", False) for r in records) / n
     uncapped_conv = sum(r["converged"] for r in records) / n
-    uncapped_tok  = sum(r["n_tokens"] for r in records) / n
+    uncapped_tok  = sum(r["total_tokens"] for r in records) / n
     print(f"Uncapped: acc={uncapped_acc:.3f} conv={uncapped_conv:.3f} mean_tok={uncapped_tok:.0f}")
 
     # Budget grid — extend downward if possible

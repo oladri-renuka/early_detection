@@ -16,33 +16,33 @@ TEMP_RESULTS   = Path("temp_robustness_results.json")
 
 
 def load_greedy_labels():
-    """Load convergence labels from the original greedy 7B run."""
+    """Load convergence labels from the original greedy 7B run, keyed by position index."""
     with open(CHECKPOINT_DIR / "records.json") as f:
         records = json.load(f)
-    return {r["problem_id"]: r["converged"] for r in records}
+    return {i: r["converged"] for i, r in enumerate(records)}
 
 
 def load_temp_labels():
     """
     Load convergence labels from temp_robustness_results.json.
-    Aggregates across seeds: converged if majority of seeds converged.
+    Uses seed_0 only (same problem order as greedy run, position-indexed).
+    Aggregates across seeds by position index: converged if majority converged.
     """
     with open(TEMP_RESULTS) as f:
         d = json.load(f)
 
     per_seed = d.get("per_seed", {}) or {k: v for k, v in d.items() if k.startswith("seed_")}
 
-    # Build {problem_id: [converged_seed0, converged_seed1, ...]}
+    # Build {position_idx: [converged_seed0, converged_seed1, ...]}
     problem_votes = {}
     for seed_data in per_seed.values():
-        for r in seed_data["results"]:
-            pid = r["problem_idx"]
-            problem_votes.setdefault(pid, []).append(r["converged"])
+        for pos, r in enumerate(seed_data["results"]):
+            problem_votes.setdefault(pos, []).append(r["converged"])
 
-    # Majority vote
+    # Majority vote across seeds
     return {
-        pid: (sum(votes) / len(votes)) >= 0.5
-        for pid, votes in problem_votes.items()
+        pos: (sum(votes) / len(votes)) >= 0.5
+        for pos, votes in problem_votes.items()
     }
 
 

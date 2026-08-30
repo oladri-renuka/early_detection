@@ -37,9 +37,9 @@ def main():
     print(f"Loaded {n} records")
 
     # Baseline: total tokens if no cap (non-converged all hit 10k)
-    total_tokens_no_cap = sum(r["n_tokens"] for r in records)
+    total_tokens_no_cap = sum(r["total_tokens"] for r in records)
     oracle_savings = sum(
-        MAX_TOKENS - r["n_tokens"] for r in records if not r["converged"]
+        MAX_TOKENS - r["total_tokens"] for r in records if not r["converged"]
     )
     oracle_savings_rate = oracle_savings / total_tokens_no_cap
     print(f"Total tokens (no cap): {total_tokens_no_cap:,}")
@@ -47,13 +47,13 @@ def main():
 
     results = []
     for cap in CAPS:
-        non_conv_aborted  = [r for r in records if not r["converged"] and r["n_tokens"] > cap]
-        conv_aborted      = [r for r in records if r["converged"] and r["n_tokens"] > cap]
-        non_conv_under    = [r for r in records if not r["converged"] and r["n_tokens"] <= cap]
-        conv_under        = [r for r in records if r["converged"] and r["n_tokens"] <= cap]
+        non_conv_aborted  = [r for r in records if not r["converged"] and r["total_tokens"] > cap]
+        conv_aborted      = [r for r in records if r["converged"] and r["total_tokens"] > cap]
+        non_conv_under    = [r for r in records if not r["converged"] and r["total_tokens"] <= cap]
+        conv_under        = [r for r in records if r["converged"] and r["total_tokens"] <= cap]
 
         tokens_saved  = sum(MAX_TOKENS - cap for _ in non_conv_aborted)
-        tokens_lost   = sum(r["n_tokens"] - cap for r in conv_aborted)
+        tokens_lost   = sum(r["total_tokens"] - cap for r in conv_aborted)
         net_savings   = tokens_saved - tokens_lost
         net_rate      = net_savings / total_tokens_no_cap
 
