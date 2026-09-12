@@ -48,10 +48,12 @@ class BudgetForcingProcessor(LogitsProcessor):
         self.think_end_id = think_end_id
         self.budget       = budget
         self.step         = 0
+        self.fired        = False   # True if we actually forced </think>
 
     def __call__(self, input_ids, scores):
         self.step += 1
         if self.step == self.budget:
+            self.fired = True
             forced = torch.full_like(scores, float("-inf"))
             forced[:, self.think_end_id] = 0.0
             return forced
@@ -114,6 +116,7 @@ def run_one(cap: int, problems, tokenizer, model, think_end_id, device):
 
         inputs    = tokenizer(prompt, return_tensors="pt").to(device)
         processor = BudgetForcingProcessor(think_end_id, cap)
+        device    = next(model.parameters()).device
 
         with torch.no_grad():
             out = model.generate(
@@ -127,24 +130,40 @@ def run_one(cap: int, problems, tokenizer, model, think_end_id, device):
         text      = tokenizer.decode(generated, skip_special_tokens=False)
         n_tokens  = len(generated)
 
-        think_end_pos = text.find("</think>")
-        naturally_converged = (think_end_pos != -1 and think_end_pos < (cap - 1) * 4)
-        forced              = "</think>" in text and not naturally_converged
+        # processor.fired is True only if we injected </think> at step==cap
+        was_forced          = processor.fired
+        naturally_converged = (not was_forced) and ("</think>" in text)
         answer              = extract_answer(text)
-        correct             = is_correct(answer, gold)
+
+        # Re-prompt for boxed answer when forced </think> didn't produce one
+        if was_forced and answer is None:
+            think_part   = text[:text.index("</think>") + len("</think>")] if "</think>" in text else text
+            answer_prompt = prompt + think_part + "\n\nThe answer is $\\boxed{"
+            ans_inputs   = tokenizer(answer_prompt, return_tensors="pt").to(device)
+            with torch.no_grad():
+                ans_out = model.generate(
+                    **ans_inputs, max_new_tokens=32, do_sample=False,
+                )
+            ans_text = tokenizer.decode(
+                ans_out[0][ans_inputs["input_ids"].shape[1]:], skip_special_tokens=True
+            )
+            m = re.match(r"([^}]+)", ans_text.strip())
+            answer = m.group(1).strip() if m else None
+
+        correct = is_correct(answer, gold)
 
         records.append({
             "problem_id":          prob_id,
             "cap":                 cap,
             "n_tokens":            n_tokens,
             "naturally_converged": naturally_converged,
-            "forced":              forced,
+            "forced":              was_forced,
             "correct":             correct,
             "pred":                answer,
             "gold":                gold,
         })
         print(
-            f"  [{i+1:3d}/{N_PROBLEMS}] nat={naturally_converged} forced={forced} "
+            f"  [{i+1:3d}/{N_PROBLEMS}] nat={naturally_converged} forced={was_forced} "
             f"tok={n_tokens:5d} correct={correct} pred={answer} gold={gold}"
         )
 
