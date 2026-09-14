@@ -101,9 +101,8 @@ def run_greedy(run_idx, problems, tokenizer, model, device):
             "correct":   correct,
             "n_tokens":  n_tokens,
         })
-        if (i + 1) % 20 == 0:
-            n_conv = sum(r["converged"] for r in results)
-            print(f"  [{i+1:3d}/{N_PROBLEMS}] conv_rate={n_conv/(i+1):.3f}")
+        n_conv = sum(r["converged"] for r in results)
+        print(f"  [{i+1:3d}/{N_PROBLEMS}] conv={converged} correct={correct} tokens={n_tokens} conv_rate={n_conv/(i+1):.3f}")
 
     n_conv = sum(r["converged"] for r in results)
     print(f"  Run {run_idx}: convergence={n_conv}/{N_PROBLEMS} = {n_conv/N_PROBLEMS:.3f}")
