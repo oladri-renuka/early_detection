@@ -305,45 +305,41 @@ def fig4_bimodal_split():
 
 # ── Fig 5: Scaling Trend ───────────────────────────────────────────────────────
 def fig5_scaling_trend():
-    # 1.5B: 69% non-conv (100% - 31% converged at temp=1.0 uncapped)
+    # 1.5B: 69% non-conv (100% - 31% converged, uncapped greedy)
     # 7B greedy: 42.5% non-conv (57.5% converged)
-    # 7B temp=0.6: 33.9% non-conv (66.1% converged)
-    models   = ["1.5B", "7B (greedy)", "7B (T=0.6)"]
-    nonconv  = [69.0, 42.5, 33.9]
-    x_pos    = [1.5, 7, 7]   # model size in B for x-axis
-    err      = [0, 0, 1.5]   # ±variance
-
+    # 7B temp=0.6: 28.5% non-conv (71.5% converged, majority-vote)
     fig, ax = plt.subplots(figsize=(7, 4.5))
 
-    # Separate greedy and temp lines
+    # Greedy line: 1.5B → 7B only (no projected 14B)
     ax.plot([1.5, 7], [69.0, 42.5], marker="o", markersize=9, linewidth=2.5,
-            color=C1, label="Greedy (T=1.0)", zorder=3)
-    ax.plot([7], [33.9], marker="^", markersize=9, linewidth=0,
-            color=C2, label="Temperature 0.6", zorder=3)
-    ax.errorbar([7], [33.9], yerr=[1.5], fmt="none", color=C2, capsize=5, linewidth=1.5, zorder=3)
+            color=C1, label="Greedy (argmax)", zorder=3)
+    # Temperature point for 7B
+    ax.plot([7], [28.5], marker="^", markersize=9,
+            color=C2, label="Temperature $T{=}0.6$ (majority vote, $k{=}4$)", zorder=3)
 
-    # Projected 14B (dotted)
-    ax.plot([7, 14], [42.5, 28], marker="o", markersize=7, linewidth=1.5,
-            color=C1, linestyle="--", alpha=0.5, label="Projected (14B)")
-
-    for x, y, label in zip([1.5, 7, 7], [69.0, 42.5, 33.9], models):
-        offset = (0.3, 3) if label == "7B (greedy)" else (0.3, -5)
-        ax.annotate(f"{label}\n{y:.1f}%", xy=(x, y),
-                    xytext=(x + offset[0], y + offset[1]),
+    # Annotate real data points only
+    for x, y, lbl in [(1.5, 69.0, "1.5B\n69.0%"), (7, 42.5, "7B\n42.5%")]:
+        ax.annotate(lbl, xy=(x, y), xytext=(x + 0.2, y + 4),
                     fontsize=9, color=GRAY)
+    ax.annotate("7B (T=0.6)\n28.5%", xy=(7, 28.5), xytext=(7 + 0.2, 28.5 - 7),
+                fontsize=9, color=C2)
 
     ax.set_xlabel("Model Size (B parameters)", fontsize=11)
     ax.set_ylabel("Non-convergence Rate (%)", fontsize=11)
-    ax.set_title("Scaling Trend: Smaller Models Loop More", fontsize=12, fontweight="bold")
+    ax.set_title(
+        "Non-convergence Rate by Model Size (AIME, $n{=}200$)",
+        fontsize=12, fontweight="bold"
+    )
     ax.set_xscale("log")
-    ax.set_xticks([1.5, 7, 14])
-    ax.set_xticklabels(["1.5B", "7B", "14B"])
+    ax.set_xticks([1.5, 7])
+    ax.set_xticklabels(["1.5B", "7B"])
     ax.set_ylim(0, 85)
     ax.legend(fontsize=9)
-    ax.text(0.05, 0.92,
-            'Contradicts Pipis et al.:\n"looping ↑ as scale ↓"',
-            transform=ax.transAxes, fontsize=9, color=GRAY, style="italic",
-            va="top", bbox=dict(boxstyle="round,pad=0.3", facecolor="white", alpha=0.7))
+    # Honest framing: within-distilled trend, orthogonal to Pipis et al.
+    ax.text(0.05, 0.20,
+            "Both models are distilled students;\nwithin-distilled scale trend is\northogonal to Pipis et al.’s claim.",
+            transform=ax.transAxes, fontsize=8, color=GRAY, style="italic",
+            va="bottom", bbox=dict(boxstyle="round,pad=0.3", facecolor="white", alpha=0.7))
 
     plt.tight_layout()
     out = RESULTS_DIR / "fig5_scaling_trend.pdf"
@@ -386,7 +382,7 @@ def fig6_permutation_test():
 
     ax.set_xlabel("AUC", fontsize=11)
     ax.set_ylabel("Count", fontsize=11)
-    ax.set_title("Permutation Test — Activation Probe (Layer 16, Token 150)", fontsize=12, fontweight="bold")
+    ax.set_title("Permutation Test — Activation Probe (Layer 20, Token 150)", fontsize=12, fontweight="bold")
     ax.legend(fontsize=9)
     ax.text(0.97, 0.93, f"p = {p_value:.3f}\n(not significant)",
             transform=ax.transAxes, ha="right", va="top", fontsize=10,
@@ -408,29 +404,34 @@ def fig7_power_analysis():
     pa   = d["power_analysis"]
     aucs = pa["candidate_aucs"]
     pows = pa["achieved_powers"]
-    mda  = pa["minimum_detectable_auc"]
-    obs_range_lo = 0.49
-    obs_range_hi = 0.65
+    # Use corrected MDA from Hanley-McNeil (n1=115, n2=85, SE=0.041)
+    mda_corrected = 0.616
+    # Observed AUC range from corrected layer sweep (Table 11: 0.489-0.512)
+    obs_range_lo = 0.489
+    obs_range_hi = 0.512
 
     fig, ax = plt.subplots(figsize=(7.5, 4))
 
     ax.plot(aucs, [p * 100 for p in pows], linewidth=2.5, color=C1, zorder=3)
     ax.axhline(80, color=C5, linewidth=1.8, linestyle="--",
                label="80% power threshold", zorder=3)
-    ax.axvline(mda, color=C2, linewidth=1.8, linestyle="--",
-               label=f"MDA = {mda:.2f}", zorder=3)
+    ax.axvline(mda_corrected, color=C2, linewidth=1.8, linestyle="--",
+               label=f"MDA = {mda_corrected:.3f} (Hanley–McNeil, SE=0.041)", zorder=3)
 
-    # Shade observed AUC range
-    ax.axvspan(obs_range_lo, obs_range_hi, alpha=0.12, color=C4,
+    # Shade corrected observed AUC range (layer sweep 0.489-0.512 only)
+    ax.axvspan(obs_range_lo, obs_range_hi, alpha=0.20, color=C4,
                label=f"Observed AUC range ({obs_range_lo}–{obs_range_hi})")
 
     ax.set_xlabel("True AUC", fontsize=11)
     ax.set_ylabel("Statistical Power (%)", fontsize=11)
-    ax.set_title("Power Analysis — n=200, α=0.05, Hanley-McNeil", fontsize=12, fontweight="bold")
+    ax.set_title(
+        "Power Analysis — $n_1{=}115$, $n_2{=}85$, $\\alpha{=}0.05$, Hanley–McNeil",
+        fontsize=12, fontweight="bold"
+    )
     ax.set_ylim(0, 105)
     ax.legend(fontsize=9)
     ax.text(0.03, 0.65,
-            "Any detectable effect\nwould require AUC ≥ 0.73",
+            "Any detectable effect\nwould require AUC ≥ 0.616",
             transform=ax.transAxes, fontsize=9, color=GRAY, style="italic",
             va="top")
 
