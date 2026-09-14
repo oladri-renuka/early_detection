@@ -104,19 +104,11 @@ def load_gsm8k(n: int) -> list:
 
 
 def load_math500() -> list:
-    # hendrycks/competition_math filtered to MATH-500 subset used in literature
-    # Use lighteval/MATH split which matches the 500-problem test set
-    try:
-        ds = load_dataset("lighteval/MATH", "all", split="test")
-        rng = random.Random(SEED)
-        problems = rng.sample(list(ds), min(N_MATH500, len(ds)))
-        return [{"question": p["problem"], "answer": p["solution"]} for p in problems]
-    except Exception:
-        # Fallback: hendrycks MATH
-        ds = load_dataset("hendrycks/competition_math", split="test")
-        rng = random.Random(SEED)
-        problems = rng.sample(list(ds), min(N_MATH500, len(ds)))
-        return [{"question": p["problem"], "answer": p["solution"]} for p in problems]
+    # HuggingFaceH4/MATH-500 is the standard 500-problem test set used in the literature
+    ds = load_dataset("HuggingFaceH4/MATH-500", split="test")
+    problems = list(ds)
+    print(f"  Loaded {len(problems)} MATH-500 problems")
+    return [{"question": p["problem"], "answer": p["answer"]} for p in problems]
 
 
 def build_prompt(tokenizer, question: str) -> str:
