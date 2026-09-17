@@ -301,8 +301,8 @@ def run_part_a(tokenizer, model, think_end_id):
                              "n_tokens": n_tokens, "forced": processor.fired,
                              "hit_answer_cap": hit_cap})
 
-                if (i + 1) % 100 == 0:
-                    print(f"    [{i+1:3d}/{len(problems)}] acc={n_correct/(i+1):.3f}")
+                print(f"  [{i+1:3d}/{len(problems)}] budget={budget} conv={converged} "
+                      f"correct={correct} tok={n_tokens} acc={n_correct/(i+1):.3f}")
 
             n = len(problems)
             entry = {
@@ -354,9 +354,9 @@ def run_part_a(tokenizer, model, think_end_id):
                          "converged": converged, "correct": correct,
                          "n_tokens": n_tokens, "hit_answer_cap": hit_cap})
 
-            if (i + 1) % 100 == 0:
-                print(f"    [{i+1:3d}/{len(problems)}] acc={n_correct/(i+1):.3f} "
-                      f"conv={n_converged/(i+1):.3f}")
+            print(f"  [{i+1:3d}/{len(problems)}] uncapped conv={converged} "
+                  f"correct={correct} tok={n_tokens} acc={n_correct/(i+1):.3f} "
+                  f"conv_rate={n_converged/(i+1):.3f}")
 
         n = len(problems)
         results[label].append({
@@ -416,9 +416,9 @@ def run_part_b(tokenizer, model, think_end_id):
         uncapped_rows.append({"idx": i, "hash": item["hash"],
                               "converged": converged, "correct": correct,
                               "n_tokens": n_tokens})
-        if (i + 1) % 20 == 0:
-            print(f"    [{i+1:3d}/200] acc={n_correct_unc/(i+1):.3f} "
-                  f"conv={n_conv_unc/(i+1):.3f}")
+        print(f"  [{i+1:3d}/200] conv={converged} correct={correct} "
+              f"tok={n_tokens} acc={n_correct_unc/(i+1):.3f} "
+              f"conv_rate={n_conv_unc/(i+1):.3f}")
 
     n = len(problems)
     total_tokens_uncapped = total_tok_unc
