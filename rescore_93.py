@@ -95,8 +95,9 @@ def main():
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
     tokenizer.pad_token_id = tokenizer.eos_token_id
     model = AutoModelForCausalLM.from_pretrained(
-        MODEL_NAME, torch_dtype=torch.float16, device_map="cuda"
+        MODEL_NAME, dtype=torch.float16
     )
+    model = model.to("cuda")
     model.eval()
     print(f"Model loaded. VRAM: {torch.cuda.memory_allocated(0)/1e9:.2f} GB")
 
