@@ -40,7 +40,7 @@ N_SAMPLES         = 200
 MAX_THINK_TOKENS  = 10_000      # generation stops here
 MAX_ANSWER_TOKENS = 1_000       # tokens to generate after injecting </think>
 
-FIXED_CAP_PATH = Path("/Users/renukaoladri/Downloads/early_detection_25/final_aime_fixed_cap.json")
+FIXED_CAP_PATH = Path(__file__).parent / "final_aime_fixed_cap.json"
 OUT_PATH       = Path("/Users/renukaoladri/Downloads/early_detection_25/rescore_93_results.json")
 
 # Token ID for </think> in DeepSeek-R1
